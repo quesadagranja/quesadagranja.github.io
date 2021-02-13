@@ -23,7 +23,7 @@ This is because R uses a [lexical scope](https://en.wikipedia.org/wiki/Scope_%28
 
 <figure>
   <img src="img/spiders-400px.jpg" alt="Bugs"/>
-  <figcaption>R bugs crawling into your code.</figcaption>
+  <figcaption><center>R bugs crawling into your code.</center></figcaption>
 </figure>
 
 When I discovered this feature, I was developing several functions with many input parameters to be called from a different function. By doing this, my first impression was that I was wasting my time. Because, what's the point in defining input parameters in R functions? There's no real need to have functions with input parameters! All you have to do is assign the function's internal variables *before* calling the function, and R will do the rest.
