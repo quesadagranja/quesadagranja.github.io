@@ -1,4 +1,4 @@
-## This is a test of used
+## This is a test of use
 And it seems to work OK.
 
 ## About
