@@ -1,7 +1,7 @@
 ---
 title: Published my second article on microcapsules!
 ---
-A month ago, on Christmas Day, the second (and last) of the articles I wrote during my stay at the Université de Technologie de Compiègne (UTC) was published online. What a nice gift! The article is entitled [Diffuse approximation for identification of the mechanical properties of microcapsules](https://journals.sagepub.com/doi/full/10.1177/1081286520977602) and can be found in the journal Mathematics and Mechanics of Solids.
+A month ago, on Christmas Day, the second (and last) of the articles I wrote during my stay at the Université de Technologie de Compiègne (UTC) was published online. What a nice gift! The article is entitled [*Diffuse approximation for identification of the mechanical properties of microcapsules*](https://journals.sagepub.com/doi/full/10.1177/1081286520977602) and can be found in the journal Mathematics and Mechanics of Solids.
 
 As I already mentioned in [my last post](https://quesadagranja.github.io/capsule-shape-prediction), a **microcapsule** is a liquid droplet enclosed by a thin elastic membrane that can be used to release substances in a controlled manner. Microcapsules have a promising future in the field of medicine. Just imagine a medication made up of thousands of these microcapsules filled with drug. By controlling the moment of rupture, it would be possible to release the drug in any target organ!
 
