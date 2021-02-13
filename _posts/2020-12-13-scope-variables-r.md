@@ -22,7 +22,7 @@ Although the `y` variable hasn't been defined within the environment of the `f` 
 This is because R uses a [lexical scope](https://en.wikipedia.org/wiki/Scope_%28computer_science%29) to find the value associated with a variable. That is, if R doesn't find the value of the variable within the function, it will look for it outside, in the environment where the function was defined. This behavior is counter-intuitive for regular C, Python or Matlab programmers, and can be a major source of bugs.
 
 <figure>
-  <img src="{{site.url}}/img/spiders-400px.jpg" alt="Bugs"/>
+  <img src="/img/spiders-400px.jpg" alt="Bugs"/>
   <figcaption>R bugs crawling into your code.</figcaption>
 </figure>
 
