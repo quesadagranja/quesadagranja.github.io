@@ -1,14 +1,14 @@
 # Site settings
 title: quesadagranja.com
 description: "AI | Data Science | R&D"
-url: "http://www.quesadagranja.com"
+url: "https://www.quesadagranja.com"
 author:
   name: "Carlos Quesada"
   email: "quesadagranja@gmail.com"
-  url: "http://www.quesadagranja.com"
+  url: "https://www.quesadagranja.com"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: quesadagranja.github.io/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
