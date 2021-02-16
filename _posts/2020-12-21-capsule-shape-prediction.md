@@ -2,7 +2,7 @@
 layout: post
 title: Published my article on microcapsule shape prediction!
 categories: R&D
-img: /images/capsule-levelset-400px.png
+img: capsule-levelset-400px.png
 ---
 This week I have a lot to celebrate. One of the articles I wrote three years ago, when I was doing my postdoc at the Université de Technologie de Compiègne (UTC), has been published online! It is entitled [*Real-time prediction of the deformation of microcapsules using Proper Orthogonal Decomposition*](https://www.sciencedirect.com/science/article/pii/S0889974620306629) and can be found in the *Journal of Fluids and Structures*.
 
