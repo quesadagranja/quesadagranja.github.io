@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Published my article on microcapsule shape prediction!
+title: "Published my article on microcapsule shape prediction!"
 date: 2020-12-21
 img: /images/capsule-levelset-400px.png
 categories: R&D
