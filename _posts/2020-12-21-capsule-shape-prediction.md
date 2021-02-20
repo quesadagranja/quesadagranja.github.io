@@ -1,11 +1,3 @@
----
-layout: post
-title: "Published my article on microcapsule shape prediction!"
-date: 2020-12-21
-categories: jekyll update
-image: /images/capsule-levelset-400px.png
-categories: [one, two]
----
 This week I have a lot to celebrate. One of the articles I wrote three years ago, when I was doing my postdoc at the Université de Technologie de Compiègne (UTC), has been published online! It is entitled [*Real-time prediction of the deformation of microcapsules using Proper Orthogonal Decomposition*](https://www.sciencedirect.com/science/article/pii/S0889974620306629) and can be found in the *Journal of Fluids and Structures*.
 
 A **microcapsule** is a micrometric liquid droplet enclosed by a thin elastic membrane. In nature, they appear in the form of red blood cells, vesicles or eggs. However, they can be artificially created to protect substances inside, such as drugs or aromas, and release them in a controlled way through their rupture. When capsules are suspended in a microfluidic channel, they undergo large deformations, which are tremendously time-consuming to compute. Predicting these deformations is crucial to determine if and when capsules will break.
