@@ -47,10 +47,7 @@ github: http://github.com/
 email: your@email.com
 
 #facebook like box
-fb-like-box: yes
-fb-app-id: 549480635219583
-fb-page-url: https://www.facebook.com/webjeda/
-fb-page-title: webjeda
+fb-like-box: no
 
 # Sass style
 sass:
