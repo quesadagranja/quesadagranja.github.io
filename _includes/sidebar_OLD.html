@@ -1,4 +1,15 @@
 <div class="col-md-4 mt20">
+  <div class="post-img">
+    {% if page.image %}
+    <img
+      width="600"
+      class="rounded"
+      src="{{page.image | relative_url}}"
+      alt="{{page.title}}"
+    />
+    {% endif %}
+  </div>
+
   <div class="mt10 recent">
     <h2>Recent articles</h2>
     <ul>
