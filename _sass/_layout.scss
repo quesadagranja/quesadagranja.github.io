@@ -121,6 +121,10 @@ footer {
   // text-decoration: underline;
 }
 
+.post-content{
+  text-align: justify;
+}
+
 .index-anchor {
   text-decoration: none;
   color: $text-color;
@@ -132,5 +136,4 @@ footer {
 
 article.post {
   margin-bottom: 5em;
-  text-align: justify;
 }
