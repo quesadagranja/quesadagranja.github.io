@@ -118,13 +118,12 @@ footer {
 .post-title {
   // line-height: 1.2;
   font-size: 1.85em;
-  text-align: left;
   // text-decoration: underline;
 }
 
 .post-content{
-  text-align: justify;
-  line-height: $base-line-height;
+  text-align: left;
+  line-height: 20.0;
 }
 
 .index-anchor {
