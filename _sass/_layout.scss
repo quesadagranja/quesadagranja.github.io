@@ -117,8 +117,9 @@ footer {
 
 .post-title {
   // line-height: 1.2;
-  font-size: 1.85em;
   // text-decoration: underline;
+  font-size: 1.85em;
+  line-height: $base-line-height;
 }
 
 .post-content{
