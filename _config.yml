@@ -1,12 +1,12 @@
 # Site settings
 title: Blog - technology and science at TheReviewIndex
 description: "A blog for sharing thoughts on technology, science and insights at TheReviewIndex."
-url: "http://www.thereviewindex.github.io/blog"
+url: "http://quesadagranja.github.io"
 ogimage: "img/default-ogimage.png"
 author:
-  name: "The Review Index"
-  email: "root@thereviewindex.com"
-  url: "https://thereviewindex.com"
+  name: "quesadagranja.com"
+  email: "quesadagranja@gmail.com"
+  url: "http://quesadagranja.github.io"
 
 
 # Build settings
