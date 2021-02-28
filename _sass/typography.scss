@@ -17,28 +17,29 @@ body
 
 p, ul, ol {
 	font-size: 14px; /* 16px */
-	line-height: 1.5em;
+	line-height: 1.8em;
 	margin-bottom: 1.5em; /* 24px/16px */
+	text-align: justify;
 }
 
 h1 {
 	font-size: 24px; /*2.25em 36px/16px */
-	line-height: 1.5em;
+	line-height: 1.8em;
 	font-weight: 800;
   padding: 0.33335em 0; /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
 h2 {
-	font-size: 20px; /* 24px/16px */
+	font-size: 22px; /* 24px/16px */
 	font-weight: 600;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 1.5em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
 
 h3{
 	font-size: 18px; /* 18px/16px */
 	font-weight: 500;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 0.66667em 0; /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
@@ -46,7 +47,7 @@ h4, h5, h6 {
 	font-size: 16px; /* 18px/16px */
 	font-weight: 400;
   color: #666666;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 0.66667em 0; /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
@@ -71,28 +72,29 @@ blockquote {
 
 p, ul, ol {
 	font-size: 14px; /* 16px */
-	line-height: 1.5em;
+	line-height: 1.8em;
 	margin-bottom: 1.5em; /* 24px/16px */
+	text-align: justify;
 }
 
 h1 {
 	font-size: 24px; /*2.25em 36px/16px */
-	line-height: 1.5em;
+	line-height: 1.8em;
 	font-weight: 800;
   padding: 0.33335em 0; /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
 h2 {
-	font-size: 20px; /* 24px/16px */
+	font-size: 22px; /* 24px/16px */
 	font-weight: 600;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 1.5em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
 
 h3{
 	font-size: 18px; /* 18px/16px */
 	font-weight: 500;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 0.66667em 0; /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
@@ -100,7 +102,7 @@ h4, h5, h6 {
 	font-size: 16px; /* 18px/16px */
 	font-weight: 400;
   color: #666666;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	padding: 0.66667em 0; /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
