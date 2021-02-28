@@ -1,4 +1,6 @@
 # Main page --> index.html
+# Colors    --> _sass\base.scss
+# Fonts     --> _sass\typography.scss
 
 # Site settings
 title: quesadagranja.com
