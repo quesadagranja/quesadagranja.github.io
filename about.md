@@ -5,13 +5,13 @@ title: About me
 
 ![](/img/me.png)
 
-**Carlos Quesada**
 Interests: AI, Data Sc, R&D
 
-## Short bio
+## Carlos Quesada
+Interests: AI, Data Sc, R&D
 
-### Education
+#### Education
 2008: BSc & MSc Telecom Eng, UMH
 
-### Experience
+#### Experience
 
