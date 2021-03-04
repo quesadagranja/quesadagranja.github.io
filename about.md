@@ -6,13 +6,13 @@ description: TheReviewIndex aspires to simplify the discovery and research proce
 
 ![](/img/me.png)
 
-## About me
+<p style="text-align: center;">**Carlos Quesada**
+Interests: AI, Data Sc, R&D</p>
 
-&nbsp;
+## Short bio
 
-&nbsp;
+### Education
+2008: BSc & MSc Telecom Eng, UMH
 
-&nbsp;
-
-&nbsp;
+### Experience
 
