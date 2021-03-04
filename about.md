@@ -5,8 +5,6 @@ title: About me
 
 ![](/img/me.png)
 
-Interests: AI, Data Sc, R&D
-
 ## Carlos Quesada
 Interests: AI, Data Sc, R&D
 
