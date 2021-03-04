@@ -15,4 +15,3 @@ Interests: AI, Data Sc, R&D
 * 2017: PhD Eng, UZ [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
 ## Experience
-
