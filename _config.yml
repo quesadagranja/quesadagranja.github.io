@@ -4,7 +4,7 @@
 
 # Site settings
 title: quesadagranja.com
-description: "Machine Learning | Data Science | R&D"
+description: "IA, Data Sc, R&D"
 url: "http://quesadagranja.github.io"
 ogimage: "img/default-ogimage.png"
 author:
@@ -37,7 +37,7 @@ gems:
   - jekyll-sitemap
 
 # Custom variables
-version: "1.0.0"
+version: "1.0"
 
 # Options
 custom_header: false
