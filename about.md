@@ -25,4 +25,11 @@ AI, Data Sc, R&D
 * 2020- : Data Sc & Mach Learn Sc @[Deusto](https://www.deusto.es/)
 
 
-<img src="/img/icon-linkedin.svg" alt="LinkedIn" width="30" height="30"> &emsp; <img src="/img/icon-twitter.svg" alt="Twitter" width="30" height="30">
+<div class="row">
+	<div class="column">
+		<img src="/img/icon-linkedin.svg" alt="LinkedIn" width="30" height="30">
+	</div>
+	<div class="column">
+		<img src="/img/icon-twitter.svg" alt="Twitter" width="30" height="30">
+	</div>
+</div>
