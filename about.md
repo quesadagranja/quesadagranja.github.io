@@ -24,4 +24,5 @@ AI, Data Sc, R&D
 * 2019-2020: Img Proc & Mach Learn Sc @UNIZAR
 * 2020- : Data Sc & Mach Learn Sc @[Deusto](https://www.deusto.es/)
 
-<img src="/img/icon-linkedin.svg" alt="LinkedIn" width="50" height="50">
+
+<img src="/img/icon-linkedin.svg" alt="LinkedIn" width="30" height="30"> &emsp; <img src="/img/icon-twitter.svg" alt="Twitter" width="30" height="30">
