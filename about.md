@@ -22,6 +22,7 @@ AI, Data Sc, R&D
 * 2012-2016: Mach Learn Sc @UNIZAR
 * 2017-2018: Mach Learn Sc @[UTC](https://www.utc.fr/)
 * 2019-2020: Img Proc & Mach Learn Sc @UNIZAR
+<<<<<<< HEAD
 * 2020- : Data Sc & Mach Learn Sc @[Deusto](https://www.deusto.es/)
 
 
@@ -33,3 +34,6 @@ AI, Data Sc, R&D
 		<img src="/img/icon-twitter.svg" alt="Twitter" width="30" height="30">
 	</div>
 </div>
+=======
+* 2020- : Data Sc & Mach Learn @[Deusto](https://www.deusto.es/)
+>>>>>>> parent of 7a5d48a (icons)
