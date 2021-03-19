@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-![](/img/me.png)
+![This is me](/img/me.png){width=50%}
 
 ## Carlos Quesada
 
