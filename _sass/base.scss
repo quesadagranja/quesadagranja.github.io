@@ -48,10 +48,10 @@ a {
 	text-decoration: none;
 	font-weight: 400;
 	&:hover {
-		color: darken($hyperlink-color, 5%);
+		color: darken($hyperlink-color, 15%);
 	},
 	&:focus {
-		color: darken($hyperlink-color, 5%);
+		color: darken($hyperlink-color, 15%);
 	}
 }
 
