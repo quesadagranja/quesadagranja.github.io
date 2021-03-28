@@ -4,7 +4,7 @@ title: About me
 ---
 
 <video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture poster="/img/me.png" style="width: 192px; padding: 10px; transform: rotate(0deg); margin: 2em auto;">
-  <source src="https://github.com/quesadagranja/quesadagranja.github.io/blob/main/img/me.webm" type="video/webm" />
+  <source src="https://webm.red/aERw" type="video/webm" />
   <source src="https://github.com/quesadagranja/quesadagranja.github.io/blob/main/img/me.mp4" type="video/mp4" />
 </video>
 
