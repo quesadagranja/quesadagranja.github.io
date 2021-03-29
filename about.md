@@ -2,7 +2,7 @@
 layout: page
 title: About me
 ---
-<video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 192px; padding: 10px; transform: rotate(2deg); margin: 2em auto; class: center;">
+<video class="center" autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 192px; padding: 10px; transform: rotate(0deg); margin: 2em auto;>
   <source src="/img/me.webm" type="video/webm" />
   <source src="/img/me.mp4" type="video/mp4" />
 </video>
