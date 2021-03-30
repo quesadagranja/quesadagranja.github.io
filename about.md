@@ -2,15 +2,17 @@
 layout: page
 title: About me
 ---
-<video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 192px; padding: 0px; transform: rotate(0deg); margin: 0em auto; text-align: center;">
+<center>
+<video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 192px; padding: 0px; transform: rotate(0deg); margin: 0em auto;">
   <source src="/img/me.webm" type="video/webm" />
   <source src="/img/me.mp4" type="video/mp4" />
 </video>
+</center>
 
 ## Carlos Quesada
 
 #### Interests
-AI, Data Sc, R&D
+Mach Learn (& AI), Data Sc, R&D
 
 #### Education
 * 2008: BSc & MSc Telecom Eng @[UMH](https://umh.es/)
