@@ -8,6 +8,9 @@ title: About me
   <source src="/img/me.mp4" type="video/mp4" />
 </video>
 </center>
+<script>
+  document.getElementById('vid').play();
+</script>
 
 ## Carlos Quesada
 
