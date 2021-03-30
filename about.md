@@ -18,7 +18,7 @@ Mach Learn (& AI), Data Sc, R&D
 * 2008: BSc & MSc Telecom Eng @[UMH](https://umh.es/)
 * 2010: [DEA](https://en.wikipedia.org/wiki/Master_of_Advanced_Studies) IT @[UA](https://www.ua.es/)
 * 2014: MSc Appl Mecha @[UNIZAR](http://www.unizar.es/)
-* 2017: PhD Eng @UNIZAR — [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
+* 2017: PhD Eng @UNIZAR [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
 #### Experience
 * 2005: Jr SW Dev @[IN UMH-CSIC](http://in.umh-csic.es/)
