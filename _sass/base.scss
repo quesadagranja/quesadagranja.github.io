@@ -21,8 +21,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
 $background-color: #FFFFFF;
 $text-color: #000000;
 $text-light-color: rgba(0,0,0,0.6);
-$text-dark-color: #0066CC;
-$hyperlink-color: #003399;
+$hyperlink-color: #0066CC;
+$text-dark-color: #003399;
 
 /*- Base settings -*/
 
@@ -42,16 +42,16 @@ body {
  padding: 0 10px;
 }
 
-/*- Link -*/
+/*- Link -*/ 
 a {
 	color: $hyperlink-color;
 	text-decoration: none;
 	font-weight: 400;
 	&:hover {
-		color: darken($hyperlink-color, 50%);
+		color: $text-dark-color;
 	};
 	&:focus {
-		color: darken($hyperlink-color, 50%);
+		color: $text-dark-color;
 	}
 }
 
