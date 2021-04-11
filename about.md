@@ -7,10 +7,13 @@ title: About me
     <source src="/img/me.mp4" type="video/mp4" />
   </video>
 </center>
-## Carlos Quesada
+
+## Carlos Quesada Granja
 
 #### Interests
-Mach Learn (& AI), Data Sc, R&D
+* Mach Learn (& AI)
+* Data Sc
+* R&D
 
 #### Education
 * 2008: BSc & MSc Telecom Eng @[UMH](https://umh.es/)
@@ -25,3 +28,9 @@ Mach Learn (& AI), Data Sc, R&D
 * 2017-2018: Mach Learn Sc @[UTC](https://www.utc.fr/)
 * 2019-2020: Img Proc & Mach Learn Sc @UNIZAR
 * 2020- : Data Sc & Mach Learn Sc @[Deusto](https://www.deusto.es/)
+
+#### Links
+* [GitHub](https://github.com/quesadagranja)
+* [Twitter](https://twitter.com/quesadagranja)
+* [LinkedIn](https://www.linkedin.com/in/quesadagranja/)
+* [ORCID](https://orcid.org/0000-0003-3294-8093)
