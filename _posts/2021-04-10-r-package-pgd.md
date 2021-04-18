@@ -3,6 +3,7 @@ layout: post
 title: "pgd: An R package"
 date: 2021-04-10
 categories: [one, two]
+use_math: true
 ---
 I have just released on my GitHub account the first package in R (as far as I know) focused on the **Proper Generalized Decomposition** (PGD). It is called, unsurprisingly, `pgd` (link [here](https://github.com/quesadagranja/pgd "here")), and solves boundary value problems based on the **2D Poisson's equation** in Cartesian coordinates.
 
@@ -11,5 +12,5 @@ This package uses the PGD methodology developed in the article entitled [*A new 
 
 $$\Delta T = - f(x,y)$$
 
-where \(T\) is a function of \(x\) and \(y\) in the domain $$\Omega = \]-M, M\[ \times \]-N, +N\[$$, with homogeneous boundary conditions. The package also includes a plot function to visualize the results.
+where $$T$$ is a function of $$x$$ and $$y$$ in the domain $$\Omega = \]-M, M\[ \times \]-N, +N\[$$, with homogeneous boundary conditions. The package also includes a plot function to visualize the results.
 
