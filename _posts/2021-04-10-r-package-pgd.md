@@ -11,5 +11,5 @@ This package uses the PGD methodology developed in the article entitled [*A new 
 
 $$\Delta T = - f(x,y)$$
 
-where $$T$$ is a function of $$x$$ and $$y$$ in the domain $$\Omega = \]-M, M\[ \times \]-N, +N\[$$, with homogeneous boundary conditions. The package also includes a plot function to visualize the results.
+where \(T\) is a function of \(x\) and \(y\) in the domain $$\Omega = \]-M, M\[ \times \]-N, +N\[$$, with homogeneous boundary conditions. The package also includes a plot function to visualize the results.
 
