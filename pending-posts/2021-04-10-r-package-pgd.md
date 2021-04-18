@@ -8,8 +8,6 @@ I have just released on my GitHub account the first package in R (as far as I kn
 
 ## Introduction
 This package uses the PGD methodology developed in the article entitled [*A new family of solvers for some classes of multidimensional partial differential equations encountered in kinetic theory modeling of complex fluids*](https://hal.archives-ouvertes.fr/hal-01004909/document), by Amine Ammar et al. This package numerically solves equations of the type
-
 $$\Delta T = - f(x,y)$$
-
 where $$T$$ is a function of $$x$$ and $$y$$ in the domain $$\Omega = \]-M, M\[ \times \]-N, +N\[$$, with homogeneous boundary conditions. The package also includes a plot function to visualize the results.
 
