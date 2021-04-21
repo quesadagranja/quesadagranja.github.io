@@ -60,3 +60,5 @@ install.packages("pgd")
 {% endhighlight %}
 
 That's it!
+
+## Using the package
