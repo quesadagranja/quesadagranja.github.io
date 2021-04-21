@@ -7,10 +7,10 @@ body
 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
-  /*font-weight: 400;*/
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.55;
+  line-height: 1.5em;
   color: #000000;
 }
 
@@ -74,10 +74,10 @@ blockquote {
 
 /*- Typography for big screen, based on 18px font-size -*/
 
-@media (min-width: 1200px) { //Breakpoint set to 940px
+@media (min-width: 940px) { //Breakpoint set to 940px
 
 p, ul, ol {
-	font-size: 18px; /* 16px */
+	font-size: 16px; /* 16px */
 	line-height: 1.8em;
 	margin-bottom: 1.5em; /* 24px/16px */
 	color: $text-color;
