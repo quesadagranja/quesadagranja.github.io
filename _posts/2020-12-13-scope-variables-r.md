@@ -2,7 +2,7 @@
 layout: post
 title: "Scope of variables in R"
 date: 2020-12-13
-image: "img/spiders-thumbnail.jpg"
+image: "/img/spiders-thumbnail.jpg"
 categories: [one, two]
 ---         
 One of the things I liked the least about R when I was learning to program in it was the **scope of variables**. Its behavior is substantially different from that of other more popular languages and can cause code errors very easily if one doesn't know how it works.
