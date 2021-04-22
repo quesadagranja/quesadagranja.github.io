@@ -11,7 +11,7 @@ layout: default
       <div class="by-line parent">
         <time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date_to_string }} </time>
       </div>
-	  <img src="/img/favicon.png" style="float:right; margin:0px 0px 15px 15px;" alt="favicon" width="150" height="150">
+	  <img src="/img/favicon.png" style="float:right; margin:0px 0px 15px 15px" alt="favicon" width="150" height="150">
       <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </div>
 
