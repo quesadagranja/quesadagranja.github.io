@@ -11,8 +11,8 @@ layout: default
       <div class="by-line parent">
         <time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date_to_string }} </time>
       </div>
-	  {% if post.image_flag == true %}
-		<img src="{{ page.image_path }}" style="float:right; margin:0px 0px 15px 15px" alt="favicon" width="120" height="120">
+	  {% if post.image %}
+		<img src="{{ post.image }}" style="float:right; margin:0px 0px 15px 15px" width="120" height="120">
 	  {% endif %}
       <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </div>
