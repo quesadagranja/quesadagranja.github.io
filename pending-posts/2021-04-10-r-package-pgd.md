@@ -62,3 +62,12 @@ install.packages("pgd")
 That's it!
 
 ## Using the package
+The package only contains the function ``pgd::poisson_2D()``, which computes the 2D Poisson's equation using PGD. The function has six input arguments, of which two are optional.
+
+The mandatory arguments are the source function ``src``, defined by $f(x,y)$; the number of nodes ``n`` to discretize the domain $\Omega$; the nodes representing the boundary conditions ``bc``; and the limits of the mesh ``mlim`` described by $-L_x$, $+L_x$, $-L_y$, $+L_y$. Since all these arguments are specified for variables $x$ and $y$, lists of the type ``list(x=, y=)`` must be used.
+
+The optional arguments have to do with the conditions of the iterative PGD algorithms: the error tolerance ``tol`` and the maximum number of iterations ``maxiter``. The latter must be specified in a list for both the outer loop ``f_iter`` and the inner loop ``r_iter``.
+
+The output that the function returns is a list of four components: the list of matrices ``f`` with the resulting modes for variables $x$ and $y$; the vector ``alpha`` of coefficients; the list of coordinates ``coor`` for variables $x$ and $y$; and the resulting surface ``t``.
+
+## Examples
