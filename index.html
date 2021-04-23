@@ -12,7 +12,9 @@ layout: default
         <time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date_to_string }} </time>
       </div>
 	  {% if post.image %}
-		<img src="{{ post.image }}" href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" style="float:right; margin:0px 0px 10px 10px" width="120" height="120">
+		<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+		<img src="{{ post.image }}" style="float:right; margin:0px 0px 10px 10px" width="120" height="120">
+		</a>
 	  {% endif %}
       <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	  </div>
