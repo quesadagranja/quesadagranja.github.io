@@ -87,7 +87,7 @@ Some examples of use are detailed below.
 ## Examples
 The examples shown here are extracted from the paper mentioned in the *Introduction* section by [Ammar et al.](https://hal.archives-ouvertes.fr/hal-01004909/document).
 
-### Example #1
+#### Example #1
 $$
 f(x,y) = \cos(2 \pi x) \sin(2 \pi y)
 $$
@@ -99,7 +99,7 @@ src <- list(
 )
 {% endhighlight %}
 
-### Example #2
+#### Example #2
 $$
 f(x,y) = x^2 - y^2
 $$
@@ -111,7 +111,7 @@ src <- list(
 )
 {% endhighlight %}
 
-### Example #3
+#### Example #3
 $$
 f(x,y) = 2x^2 + x + y^2 - 0.2y + 3xy
 $$
