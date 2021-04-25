@@ -42,20 +42,20 @@ Due to the separate nature of PGD, the function $f(x,y)$ must also be provided i
 ## Installation
 The installation of the ``pgd`` package in your favorite R environment is really easy and can be done in three steps. First, install the ``devtools`` package if you don't have it. To do so, type:
 
-{% highlight r %}
+{% highlight r linenos %}
 install.packages("devtools")
 {% endhighlight %}
 
 Then, install the ``pgd`` package from my repo:
 
-{% highlight r %}
+{% highlight r linenos %}
 library(devtools)
 install_github("quesadagranja/pgd")
 {% endhighlight %}
 
 Finally, load the package:
 
-{% highlight r %}
+{% highlight r linenos %}
 install.packages("pgd")
 {% endhighlight %}
 
@@ -85,7 +85,7 @@ The output that the function returns is a list of four components:
 Some examples of use are detailed below.
 
 ## Examples
-The examples shown here are extracted from the paper mentioned in the *Introduction* section by [Ammar et al.](https://hal.archives-ouvertes.fr/hal-01004909/document).
+The examples shown here are extracted from the paper mentioned in the *Introduction* section by [Ammar et al](https://hal.archives-ouvertes.fr/hal-01004909/document).
 
 #### Example #1
 $$
