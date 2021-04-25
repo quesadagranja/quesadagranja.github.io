@@ -2,8 +2,7 @@
 layout: post
 title: "Segmentation of load profiles by time series feature extraction"
 date: 2021-03-06
-image: /img/WHY-clusters-thumbnail.jpg
-categories: [one, two]
+image: /thumbs/WHY-clusters-thumbnail.jpg
 ---               
 Part of my current work focuses on the H2020 project entitled [*WHY: Climbing the causality ladder to understand and project the energy demand of the residential sector*](https://www.why-h2020.eu). At University of Deusto, we are building a **causal model** of the energy demand at household level. The objective of this model is to understand, in a quantitative manner, the decision-making process that leads a user to consume electricity and his/her reactions to changes in energy policies.
 

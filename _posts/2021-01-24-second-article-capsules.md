@@ -2,8 +2,7 @@
 layout: post
 title: "Published my second article on microcapsules!"
 date: 2021-01-24
-image: /img/capsule-floating-thumbnail.jpg
-categories: [one, two]
+image: /thumbs/capsule-floating-thumbnail.jpg
 ---               
 A month ago, on Christmas Day, the second (and last) of the articles I wrote during my stay at the Université de Technologie de Compiègne (UTC) was published online. What a cool Christmas present! The article is entitled [*Diffuse approximation for identification of the mechanical properties of microcapsules*](https://journals.sagepub.com/doi/full/10.1177/1081286520977602) and can be found in the journal *Mathematics and Mechanics of Solids*.
 

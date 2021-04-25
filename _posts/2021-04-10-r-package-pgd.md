@@ -62,12 +62,63 @@ install.packages("pgd")
 That's it!
 
 ## Using the package
-The package only contains the function ``pgd::poisson_2D()``, which computes the 2D Poisson's equation using PGD. The function has six input arguments, of which two are optional.
+The package only contains the function ``pgd::poisson_2D()``, which solves the 2D Poisson's equation using PGD. The function has six input arguments, of which two are optional.
 
-The mandatory arguments are the source function ``src``, defined by $f(x,y)$; the number of nodes ``n`` to discretize the domain $\Omega$; the nodes representing the boundary conditions ``bc``; and the limits of the mesh ``mlim`` described by $-L_x$, $+L_x$, $-L_y$, $+L_y$. Since all these arguments are specified for variables $x$ and $y$, lists of the type ``list(x=, y=)`` must be used.
+The mandatory arguments are:
+* The source function ``src``, defined by $f(x,y)$.
+* The number of nodes ``n`` to discretize the domain $\Omega$.
+* The nodes ``bc`` of the (vanishing) boundary conditions.
+* The limits of the mesh ``mlim`` described by $-L_x$, $+L_x$, $-L_y$, $+L_y$.
 
-The optional arguments have to do with the conditions of the iterative PGD algorithms: the error tolerance ``tol`` and the maximum number of iterations ``maxiter``. The latter must be specified in a list for both the outer loop ``f_iter`` and the inner loop ``r_iter``.
+Since all these arguments are specified for variables $x$ and $y$, lists of the type ``list(x=, y=)`` must be used.
 
-The output that the function returns is a list of four components: the list of matrices ``f`` with the resulting modes for variables $x$ and $y$; the vector ``alpha`` of coefficients; the list of coordinates ``coor`` for variables $x$ and $y$; and the resulting surface ``t``.
+The optional arguments have to do with the conditions of the iterative PGD algorithms:
+* The maximum number of iterations ``maxiter``, which must be specified as a list for both the outer loop ``f_iter`` and the inner loop ``r_iter``. The values by default are 500 for ``f_iter`` and 250 for ``r_iter``.
+* The error tolerance ``tol``. The outer iteration of the PGD algorithm will stop when the ratio between the last and the first calculated $\alpha$ coefficients is less than this value. The value by default is $10^{-4}$.
+
+The output that the function returns is a list of four components:
+* The list of matrices ``f`` with the resulting modes for variables $x$ and $y$.
+* The vector ``alpha`` of coefficients.
+* The list of coordinates ``coor`` for variables $x$ and $y$.
+* The resulting surface ``t``.
+
+Some examples of use are detailed below.
 
 ## Examples
+The examples shown here are extracted from the paper mentioned in the *Introduction* section by [Ammar et al.](https://hal.archives-ouvertes.fr/hal-01004909/document).
+
+### Example #1
+$$
+f(x,y) = \cos(2 \pi x) \sin(2 \pi y)
+$$
+
+{% highlight r linenos %} 
+src <- list(
+  x = function(x) list(cos(2*pi*x)),
+  y = function(y) list(sin(2*pi*y))
+)
+{% endhighlight %}
+
+### Example #2
+$$
+f(x,y) = x^2 - y^2
+$$
+
+{% highlight r linenos %} 
+src <- list(
+  x = function(x) list(x^2, 1),
+  y = function(y) list(1, -y^2)
+)
+{% endhighlight %}
+
+### Example #3
+$$
+f(x,y) = 2x^2 + x + y^2 - 0.2y + 3xy
+$$
+
+{% highlight r linenos %} 
+src <- list(
+  x = function(x) list(2*x^2, x, 1, 1, 3*x),
+  y = function(y) list(1, 1, y^2, -0.2*y, y)
+)
+{% endhighlight %}
