@@ -42,20 +42,20 @@ Due to the separate nature of PGD, the function $f(x,y)$ must also be provided i
 ## Installation
 The installation of the ``pgd`` package in your favorite R environment is really easy and can be done in three steps. First, install the ``devtools`` package if you don't have it. To do so, type:
 
-{% highlight r linenos %}
+{% highlight r %}
 install.packages("devtools")
 {% endhighlight %}
 
 Then, install the ``pgd`` package from my repo:
 
-{% highlight r linenos %}
+{% highlight r %}
 library(devtools)
 install_github("quesadagranja/pgd")
 {% endhighlight %}
 
 Finally, load the package:
 
-{% highlight r linenos %}
+{% highlight r %}
 install.packages("pgd")
 {% endhighlight %}
 
@@ -88,7 +88,7 @@ Some examples of use are detailed below.
 The examples shown here are extracted from the paper mentioned in the *Introduction* section by [Ammar et al](https://hal.archives-ouvertes.fr/hal-01004909/document).
 
 #### Example #1
-The first example computes the solution of the 2D Poisson's problem defined in $\Omega = \left(-1, 1\right) \times \left(-1, 1\right)$, with $f(x,y) = \cos(2 \pi x) \sin(2 \pi y)$, assuming that the solution vanishes at the domain boundary. The code to obtain the solution with the ``pgd`` package is:
+The first example computes the solution of the 2D Poisson's problem defined in $\Omega = \left(-1, 1\right) \times \left(-1, 1\right)$, with $f(x,y) = \cos(2 \pi x) \sin(2 \pi y)$, assuming that the solution vanishes at the domain boundary. The code to obtain the solution with the ``pgd`` package is below.
 
 {% highlight r %}
 # Source example
@@ -109,6 +109,8 @@ mlim <- list(
 # CALL FUNCTION
 o <- pgd::poisson_2D(src, n, mlim)
 {% endhighlight %}
+
+A grid of $41 \times 41$ nodes has been defined. The solution is reached in one iteration (the value of $\alpha_2$ is so low that can perfectly be neglected) and is stored in the list ``o``. The $x$ and $y$ modes can be represented by typing
 
 #### Example #2
 $$
