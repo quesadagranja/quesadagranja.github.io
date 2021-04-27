@@ -2,6 +2,7 @@
 layout: post
 title: "pgd: An R package"
 date: 2021-04-10
+categories: [one, two]
 ---
 I just released on my GitHub account the first package in **R** (as far as I know) focused on the [**Proper Generalized Decomposition**](https://en.wikipedia.org/wiki/Proper_generalized_decomposition)! I've unsurprisingly called it `pgd` and can be found [here](https://github.com/quesadagranja/pgd "here"). At the moment it only solves boundary value problems based on the **2D Poisson's equation** in Cartesian coordinates. Depending on its "success", I can consider extending it with other differential equations.
 
@@ -61,17 +62,17 @@ install.packages("pgd")
 That's it!
 
 ## Using the package
-The package only contains the function ``pgd::poisson_2D()``, which solves the 2D Poisson's equation using PGD. The function has six input arguments, of which two are optional.
+The package only contains the function ``pgd::poisson_2D()``, which solves the 2D Poisson's equation using PGD. The function has six input arguments, of which three are optional.
 
 The mandatory arguments are:
 * The source function ``src``, defined by $f(x,y)$.
 * The number of nodes ``n`` to discretize the domain $\Omega$.
-* The nodes ``bc`` of the (vanishing) boundary conditions.
 * The limits of the mesh ``mlim`` described by $-L_x$, $+L_x$, $-L_y$, $+L_y$.
 
 Since all these arguments are specified for variables $x$ and $y$, lists of the type ``list(x=, y=)`` must be used.
 
-The optional arguments have to do with the conditions of the iterative PGD algorithms:
+The optional arguments are:
+* The nodes ``bc`` of the (vanishing) boundary conditions. The values by default are the first and last nodes.
 * The maximum number of iterations ``maxiter``, which must be specified as a list for both the outer loop ``f_iter`` and the inner loop ``r_iter``. The values by default are 500 for ``f_iter`` and 250 for ``r_iter``.
 * The error tolerance ``tol``. The outer iteration of the PGD algorithm will stop when the ratio between the last and the first calculated $\alpha$ coefficients is less than this value. The value by default is $10^{-4}$.
 
@@ -90,6 +91,7 @@ The examples shown here are extracted from the paper mentioned in the *Introduct
 The first example computes the solution of the 2D Poisson's problem defined in $\Omega = \left(-1, 1\right) \times \left(-1, 1\right)$, with $f(x,y) = \cos(2 \pi x) \sin(2 \pi y)$, assuming that the solution vanishes at the domain boundary. The code to obtain the solution with the ``pgd`` package is below.
 
 ```
+{% highlight r %}
 # Source example
 src <- list(
   x = function(x) list(cos(2*pi*x)),
@@ -107,6 +109,7 @@ mlim <- list(
 )
 # CALL FUNCTION
 o <- pgd::poisson_2D(src, n, mlim)
+{% endhighlight %}
 ```
 
 A grid of $41 \times 41$ nodes has been defined. The solution is reached in one iteration (the value of $\alpha_2$ is so low that can perfectly be neglected) and is stored in the list ``o``. The $x$ and $y$ modes can be represented by typing
