@@ -2,7 +2,6 @@
 layout: post
 title: "pgd: An R package"
 date: 2021-04-10
-categories: [one, two]
 ---
 I just released on my GitHub account the first package in **R** (as far as I know) focused on the [**Proper Generalized Decomposition**](https://en.wikipedia.org/wiki/Proper_generalized_decomposition)! I've unsurprisingly called it `pgd` and can be found [here](https://github.com/quesadagranja/pgd "here"). At the moment it only solves boundary value problems based on the **2D Poisson's equation** in Cartesian coordinates. Depending on its "success", I can consider extending it with other differential equations.
 
