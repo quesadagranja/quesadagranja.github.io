@@ -89,6 +89,7 @@ The examples shown here are extracted from the paper mentioned in the *Introduct
 #### Example #1
 The first example computes the solution of the 2D Poisson's problem defined in $\Omega = \left(-1, 1\right) \times \left(-1, 1\right)$, with $f(x,y) = \cos(2 \pi x) \sin(2 \pi y)$, assuming that the solution vanishes at the domain boundary. The code to obtain the solution with the ``pgd`` package is below.
 
+```
 {% highlight r %}
 # Source example
 src <- list(
@@ -108,6 +109,7 @@ mlim <- list(
 # CALL FUNCTION
 o <- pgd::poisson_2D(src, n, mlim)
 {% endhighlight %}
+```
 
 A grid of $41 \times 41$ nodes has been defined. The solution is reached in one iteration (the value of $\alpha_2$ is so low that can perfectly be neglected) and is stored in the list ``o``. The $x$ and $y$ modes can be represented by typing
 
