@@ -147,13 +147,13 @@ which gives as a result
 
 The complete surface of the solution can be plotted by typing
 
-![](/img/example1-surface.png)
-
 ```
 {% highlight r %}
 persp(o$coor$x, o$coor$y, o$t, theta=-35, phi=34, xlab="x", ylab="y", zlab="T(x,y)", ltheta=-35, lphi=55, shade=2.5, col="darkkhaki")
 {% endhighlight %}
 ```
+
+![](/img/example1-surface.png)
 
 #### Example #2
 $$
