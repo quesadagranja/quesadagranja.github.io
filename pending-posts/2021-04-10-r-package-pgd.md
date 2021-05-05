@@ -145,11 +145,24 @@ which gives as a result
 
 ![](/img/example1-mode1y.png)
 
-The complete surface of the solution can be plotted by typing
+The surface of the solution can be plotted by using ``persp`` (only the first three arguments are strictly necessary; the rest are aesthetic extras):
 
 ```
 {% highlight r %}
-persp(o$coor$x, o$coor$y, o$t, theta=-35, phi=34, xlab="x", ylab="y", zlab="T(x,y)", ltheta=-35, lphi=55, shade=2.5, col="darkkhaki")
+persp(
+  o$coor$x,
+  o$coor$y,
+  o$t,
+  theta  = -35,
+  phi    = 34,
+  xlab   = "x",
+  ylab   = "y",
+  zlab   = "T(x,y)",
+  ltheta = -35,
+  lphi   = 55,
+  shade  = 2.5,
+  col    = "darkkhaki"
+)
 {% endhighlight %}
 ```
 
