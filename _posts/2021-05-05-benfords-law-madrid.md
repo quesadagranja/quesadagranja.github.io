@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Was there fraud in 2021 Madrid regional election? (a post about Benford's law)"
+title: "Was there fraud in 2021 Madrid regional election?"
 date: 2021-05-06
 image: 
 ---
-**Benford's law** states that in many collections of numbers that occur naturally, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some of these collections of numbers include
+The answer is **no**.
+
+Benford's law states that in many collections of numbers that occur naturally, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some of these collections of numbers include
 
 1. the number of followers of Twitter users,
 2. the number of books in US libraries,
