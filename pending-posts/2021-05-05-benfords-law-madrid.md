@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Was there fraud in 2021 Madrid regional election?"
+title: "Benford's law and the 2021 Madrid regional election"
 date: 2021-05-06
 image: 
 ---
-The answer is **no**.
-
-Benford's law states that in many collections of numbers that occur naturally, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some of these collections of numbers include
+I initially wanted to title this post "*Was the 2021 Madrid regional election fraudulent?*", but it seemed too far-fetched for a post about **Bendford's Law**. This law describes a phenomenon by which in many real-life collections of numbers, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
 
 1. the number of followers of Twitter users,
 2. the number of books in US libraries,
@@ -18,7 +16,7 @@ The website [testingbenfordslaw.com](testingbenfordslaw.com) provides a visual c
 ![](D:/Quesada/Documents/__ACTIVIDADES/quesadagranja.github.io/img/benford-distribution.png)
 *<center><small>The distribution of the first digits, according to Benford's law. Image from Wikipedia.</small></center>*
 
-This law, which might seem irrelevant, has interesting applications in forensic accounting, auditing and **fraud detection**, as described in the book by Mark J. Nigrini, [*Benford's law*](https://books.google.es/books/about/Benford_s_Law.html?id=Bh5Vr_I1NZoC). For example, a claim that circulated on social media after the 2020 US Presidential election was that some of the votes for Joe Biden seemed suspicious because they did not follow Benford's law.
+This law, which might seem not so relevant, has interesting applications in the fields of forensic accounting, auditing and **fraud detection**, as described in the book by Mark J. Nigrini, [*Benford's law*](https://books.google.es/books/about/Benford_s_Law.html?id=Bh5Vr_I1NZoC). Among the frauds that are often analysed with Benford's law are tax fraud and also **electoral fraud**. For example, a claim that circulated on social media after the 2020 US Presidential election was that some of the votes for Joe Biden seemed suspicious because they did not follow Benford's law. The tweet below is an example.
 
 ![](D:/Quesada/Documents/__ACTIVIDADES/quesadagranja.github.io/img/twitter-benfords.png)
 [*<center><small>Tweet by @PetersonAmoriah</small></center>*](https://twitter.com/PetersonAmoriah/status/1333593122861846528)
