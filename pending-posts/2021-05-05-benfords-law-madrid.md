@@ -4,10 +4,10 @@ title: "Benford's law and the 2021 Madrid regional election"
 date: 2021-05-06
 image: 
 ---
-I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but it seemed too excessive for a post about R packages and mathematical calculations.
+I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but I found it too much for a post about mathematical calculations and R code.
 
 
-More precisely, this post focuses on **Bendford's Law**. This law describes a phenomenon by which in many real-life collections of numbers, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
+In particular, this post focuses on [**Bendford's Law**](https://en.wikipedia.org/wiki/Benford%27s_law). This law describes a phenomenon by which in many real-life collections of numbers, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
 
 1. the number of followers of Twitter users,
 2. the number of books in US libraries,
@@ -23,3 +23,7 @@ This law, which might seem not so relevant, has interesting applications in the 
 
 ![](D:/Quesada/Documents/__ACTIVIDADES/quesadagranja.github.io/img/twitter-benford-500px.png)
 [*<center><small>Tweet by @PetersonAmoriah</small></center>*](https://twitter.com/PetersonAmoriah/status/1333593122861846528)
+
+Three days ago there were regional elections in Madrid and I wanted to check whether Bendford's law holds true for the results of each municipality in the region.
+
+![](D:/Quesada/Documents/__ACTIVIDADES/quesadagranja.github.io/img/benford-parties.png)
