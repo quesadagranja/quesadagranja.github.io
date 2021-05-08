@@ -7,7 +7,7 @@ image: /thumbs/madrid-election-thumbnail.jpg
 I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but I found it too much for a post about observation-based laws and R code.
 
 
-In particular, this post focuses on [**Bendford's Law**](https://en.wikipedia.org/wiki/Benford%27s_law). This law describes a phenomenon by which, in many real-life collections of numbers, those numbers whose leading digit is 1 appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
+In particular, this post focuses on [**Benford's Law**](https://en.wikipedia.org/wiki/Benford%27s_law). This law describes a phenomenon by which, in many real-life collections of numbers, those numbers whose leading digit is 1 appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
 
 1. the number of followers of Twitter users,
 2. the number of books in US libraries,
