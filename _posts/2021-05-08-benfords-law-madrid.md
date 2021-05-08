@@ -4,7 +4,7 @@ title: "Benford's law and the 2021 Madrid regional election"
 date: 2021-05-08
 image: /thumbs/madrid-election-thumbnail.jpg
 ---
-I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but I found it too much for a post about mathematical calculations and R code.
+I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but I found it too much for a post about observation-based laws and R code.
 
 
 In particular, this post focuses on [**Bendford's Law**](https://en.wikipedia.org/wiki/Benford%27s_law). This law describes a phenomenon by which, in many real-life collections of numbers, those numbers whose leading digit is 1 will appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include
@@ -25,7 +25,7 @@ This law, which might seem not so relevant, has interesting applications in the 
 ![](/img/twitter-benford-500px.png)
 [*<center><small>Tweet by @PetersonAmoriah</small></center>*](https://twitter.com/PetersonAmoriah/status/1333593122861846528)
 
-Last Tuesday (May 4th) there were regional elections in Madrid and I wanted to check whether Benford's law holds true for the results of each municipality in the region. Six main political parties contested the 136 seats in the Madrid Assembly and the results were as follows:
+Last Tuesday (May 4th) there were regional elections in Madrid and I wanted to check whether Benford's law holds true for the results of each municipality in the region. Six main political parties contested the 136 seats in the Madrid Assembly and [the results](https://resultados2021.comunidad.madrid/Resultados/Comunidad-de-Madrid/0/es) were as follows:
 * **Partido Popular**: 65 seats (1,620,213 votes)
 * **Más Madrid**: 24 seats (614,660 votes)
 * **PSOE**: 24 seats (610,190 votes)
