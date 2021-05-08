@@ -14,7 +14,7 @@ In particular, this post focuses on [**Bendford's Law**](https://en.wikipedia.or
 3. the population of Spanish cities,
 4. the street numbers of Brazilian addresses, and so on.
 
-In all these collections of numbers the digit that most of the numbers start with is 1, then 2, then 3... and so on, with 9 being the digit that the fewest numbers start with.
+In all these collections, the digit that most of the numbers start with is 1, then 2, then 3... and so on, with 9 being the digit that the fewest numbers start with.
 The website [testingbenfordslaw.com](testingbenfordslaw.com) provides a visual check of these examples and many more.
 
 ![](/img/benford-distribution-450px.png)
