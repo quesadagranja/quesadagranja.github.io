@@ -11,6 +11,6 @@ In order to determine the types of households that exist in terms of energy cons
 Some initial results have been obtained using the *Low Carbon London* data set, publicly available on the [London Datastore website](https://data.london.gov.uk/). This data set contains energy consumption readings for a sample of 5,567 London households, measured between November 2011 and February 2014. A set of features containing aggregated means of different periods (mainly hours, days of the week and months) has been computed, and an unsupervised clustering based on PCA and *k*-means has been performed. The image below shows the average hourly load profiles of two clusters.
 
 ![](/img/WHY-clusters.png)
-*<center>Average hourly load profiles of two clusters obtained from the analysis of the Low Carbon London data set.</center>*
+*<center><small>Average hourly load profiles of two clusters obtained from the analysis of the Low Carbon London data set.</small></center>*
 
 Although these are just preliminary results, it is already possible to identify different patterns of energy behaviour in the resulting automatic classification (e.g. households with and without a significant electricity consumption in the mornings). These results are therefore very promising, as they show the enormous potential of the proposed methodology for the upcoming analyses.
