@@ -14,10 +14,15 @@ This year the **[WHY project](https://www.why-h2020.eu/)**, which I am involved 
 ![](/img/zientzia-azoka-2021-me.jpg)
 *<center><small>People approaching our stand.</small></center>*
 
-WHY is a 3-year project funded by the European Union that aims to model residential energy consumption based on behavior. We have already [processed, analyzed and clustered](https://www.quesadagranja.com/segmentation-load-profiles) the load profiles (electricity consumption versus time) of tens of thousands of households and now we are collecting extra information to complete our data. At this fair, we presented a **Telegram bot** that we have just developed to get this extra information. Using a set of QR codes placed near certain household appliances, our bot deploys real-time surveys to the interested users. We will use the answers to learn about energy consumption habits. In exchange for this information, the users receive reports and advice on how to reduce their daily energy consumption.
+WHY is a 3-year project funded by the European Union that aims to model residential energy consumption based on behavior. We have already [processed, analyzed and clustered](https://www.quesadagranja.com/segmentation-load-profiles) the load profiles (electricity consumption versus time) of tens of thousands of households and now we are collecting extra information to complete our data.
+
+At this fair, we have introduced a **Telegram bot** that we just developed to get this extra information. By taking photos of a set of QR codes placed near certain appliances, our bot deploys real-time surveys to the interested users. We will use the answers to learn about people's energy consumption habits. In exchange for this information, the users will receive periodic reports and advice on how to reduce their daily energy consumption.
 
 ![](/img/zientzia-azoka-2021-users.jpg)
 *<center><small>People activating the Telegram bot with the QR codes.</small></center>*
+
+![](/img/zientzia-azoka-2021-bot.png)
+*<center><small>QR code to activate the Telegram bot.</small></center>*
 
 The fair was a success in terms of attendance. During the four hours that the event lasted, we attended about fifty people who showed their interest in our project.
 
