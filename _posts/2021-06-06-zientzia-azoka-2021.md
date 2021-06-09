@@ -16,7 +16,7 @@ This year the **[WHY project](https://www.why-h2020.eu/)**, which I am involved 
 
 WHY is a 3-year project funded by the European Union that aims to model residential energy consumption based on behavior. We have already [processed, analyzed and clustered](https://www.quesadagranja.com/segmentation-load-profiles) the load profiles (electricity consumption versus time) of tens of thousands of households and now we are collecting extra information to complete our data.
 
-At this fair, we have introduced a **Telegram bot** that we just developed to get this extra information. By taking photos of a set of QR codes placed near certain appliances, our bot deploys real-time surveys to the interested users. We will use the answers to learn about people's energy consumption habits. In exchange for this information, the users will receive periodic reports and advice on how to reduce their daily energy consumption.
+At this fair, we have introduced a **Telegram bot** that we just developed to get this extra information. By taking photos of a set of QR codes placed near certain household appliances, our bot deploys real-time surveys to the interested users. We will use the answers to learn about people's energy consumption habits. In exchange for this information, the users will receive periodic reports and advice on how to reduce their daily energy consumption.
 
 ![](/img/zientzia-azoka-2021-users.jpg)
 *<center><small>People activating the Telegram bot with the QR codes.</small></center>*
