@@ -21,7 +21,7 @@ At this fair, we have introduced a **Telegram bot** that we just developed to ge
 ![](/img/zientzia-azoka-2021-users.jpg)
 *<center><small>People activating the Telegram bot with the QR codes.</small></center>*
 
-You can activate the bot on your cell phone with this QR code. You need to have the Telegram app installed!
+You can activate the bot on your cell phone directly with this QR code. You need to have the Telegram app installed!
 
 ![](/img/zientzia-azoka-2021-bot.png)
 *<center><small>QR code to activate the Telegram bot.</small></center>*
