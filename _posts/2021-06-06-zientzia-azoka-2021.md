@@ -26,7 +26,7 @@ You can activate the bot on your cell phone directly with this QR code. You need
 ![](/img/zientzia-azoka-2021-bot.png)
 *<center><small>QR code to activate the Telegram bot.</small></center>*
 
-The fair was a success in terms of attendance. During the four hours that the event lasted, we attended about fifty people who showed their interest in our project.
+As a conclusion, the fair was a success in terms of attendance. During the four hours that the event lasted, we attended about fifty people who showed their interest in our project.
 
 ### Related posts
 * [Segmentation of load profiles by time series feature extraction](https://www.quesadagranja.com/segmentation-load-profiles)
