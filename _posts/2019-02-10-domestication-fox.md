@@ -20,4 +20,4 @@ Foxes in the domesticated population showed an unusually high incidence of chang
 Thus, this experiment has shown that many characteristics developed by dogs during their evolutionary course towards domestication can be reproduced, in a few tens of generations, by a strong selective pressure focused on specific behaviors.
 
 
-*This post is an old article I wrote in 2019 on Blogger.*
+*This post is an old article (originally in Spanish) I wrote in 2019 on Blogger.*
