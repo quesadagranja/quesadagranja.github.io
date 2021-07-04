@@ -8,7 +8,7 @@ title: About me
   </video>
 </center>
 
-<center><small>@Sopela beach</small></center>
+<center><small>Sopela beach, July 2021</small></center>
 
 
 ## Carlos Quesada Granja
