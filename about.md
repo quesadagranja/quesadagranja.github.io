@@ -7,7 +7,7 @@ title: About me
     <source src="/img/me.mp4" type="video/mp4" />
   </video>
 </center>
-</br>
+
 <center><small>@[Sopela beach](https://www.google.es/maps/@43.383829,-3.0083931,16.5z)</small></center>
 
 
