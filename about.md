@@ -8,7 +8,7 @@ title: About me
   </video>
 </center>
 
-<center><small>@[Sopela beach](https://www.google.es/maps/@43.383829,-3.0083931,16.5z)</small></center>
+<center><small>@Sopela beach</small></center>
 
 
 ## Carlos Quesada Granja
