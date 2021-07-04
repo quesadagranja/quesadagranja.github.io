@@ -7,6 +7,7 @@ title: About me
     <source src="/img/me.mp4" type="video/mp4" />
   </video>
 </center>
+</br>
 <center><small>Sopela beach</small></center>
 
 
