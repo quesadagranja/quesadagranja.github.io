@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 <center>
-  <video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 192px; padding: 0px; transform: rotate(0deg); margin: 0em auto;">
+  <video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 250px; padding: 0px; transform: rotate(0deg); margin: 0em auto;">
     <source src="/img/me.mp4" type="video/mp4" />
   </video>
 </center>
