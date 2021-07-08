@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When penguins pooh"
-date: 2017-08-18
+date: 2015-05-03
 image: /thumbs/penguins-pooh-thumbnail.jpg
 ---     
 In December 2003, the scientific journal [_Polar Biology_](https://www.springer.com/journal/300) (Springer) published an article entitled [_Pressures produced when penguins pooh—calculations on avian
@@ -19,4 +19,4 @@ The research made it possible to calculate this pressure, which can reach up to 
 
 So, let's be cautious: the next time we see the inanimate gaze of a penguin in a TV documentary, let's remember that under its tail a small Krakatoa is hiding, about to explode.
 
-_This post is an adaptation and translation from Spanish of an older article I wrote in 2017 (or even earlier) on Blogger._
+_This post is an adaptation and translation from Spanish of an older article I wrote in 2015 on Blogger._
