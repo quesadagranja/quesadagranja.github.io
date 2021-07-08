@@ -19,4 +19,4 @@ The research made it possible to calculate this pressure, which can reach up to 
 
 So, let's be cautious: the next time we see the inanimate gaze of a penguin in a TV documentary, let's remember that under its tail a small Krakatoa is hiding, about to explode.
 
-_This post is an adaptation and translation from Spanish of an older article I wrote in 2017 (or earlier) on Blogger._
+_This post is an adaptation and translation from Spanish of an older article I wrote in 2017 (or even earlier) on Blogger._
