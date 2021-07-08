@@ -13,7 +13,7 @@ title: About me
 
 #### Interests
 * Mach Learn (& AI)
-* Data Sc
+* Data Sci
 * R&D
 
 #### Education
@@ -24,11 +24,11 @@ title: About me
 
 #### Experience
 * 2005: Jr SW Dev @[IN UMH-CSIC](http://in.umh-csic.es/)
-* 2010-2012: R&D SW Eng & Mach Learn Sc @IN UMH-CSIC
-* 2012-2016: Mach Learn Sc @UNIZAR
-* 2017-2018: Mach Learn Sc @[UTC](https://www.utc.fr/)
-* 2019-2020: Img Proc & Mach Learn Sc @UNIZAR
-* 2020- : Data Sc & Mach Learn Sc @[Deusto](https://www.deusto.es/)
+* 2010-2012: R&D SW Eng & Mach Learn Sci @IN UMH-CSIC
+* 2012-2016: Mach Learn Sci @UNIZAR
+* 2017-2018: Mach Learn Sci @[UTC](https://www.utc.fr/)
+* 2019-2020: Img Proc & Mach Learn Sci @UNIZAR
+* 2020- : Data Sci & Mach Learn Sci @[Deusto](https://www.deusto.es/)
 
 #### Links
 * [GitHub](https://github.com/quesadagranja)
