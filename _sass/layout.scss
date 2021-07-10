@@ -247,11 +247,11 @@ code {
     color: $text-color;
   }
   a:hover {
-    background-color: lighten($text-color, 5%);
+    background-color: lighten($hyperlink-color, 5%);
   }
 }
 .page-item {
-  background-color: lighten($text-color, 10%);
+  background-color: lighten($hyperlink-color, 10%);
   color: $background-color;
   padding: 4px 8px;
   font-weight: 400;
