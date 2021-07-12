@@ -23,7 +23,7 @@ title: About me
 * 2012-2016: Mach Learn Sci @UNIZAR
 * 2017-2018: Mach Learn Sci @[UTC](https://www.utc.fr/)
 * 2019-2020: Img Proc & Mach Learn Sci @UNIZAR
-* 2020- : Data Sci & Mach Learn Sci @[Deusto](https://www.deusto.es/)
+* 2020- : Data Eng & Mach Learn Sci @[Deusto](https://www.deusto.es/)
 
 #### Interests
 * Mach Learn (& AI)
