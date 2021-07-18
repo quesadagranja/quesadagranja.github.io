@@ -11,16 +11,11 @@ title: About me
 
 ## Carlos Quesada Granja
 
-#### Interests
-* Mach Learn (& AI)
-* Data Sci
-* R&D
-
 #### Education
 * 2008: BSc & MSc Telecom Eng @[UMH](https://umh.es/)
 * 2010: [DEA](https://en.wikipedia.org/wiki/Master_of_Advanced_Studies) IT @[UA](https://www.ua.es/)
 * 2014: MSc Appl Mecha @[UNIZAR](http://www.unizar.es/)
-* 2017: PhD Eng @UNIZAR [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
+* 2017: PhD @UNIZAR [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
 #### Experience
 * 2005: Jr SW Dev @[IN UMH-CSIC](http://in.umh-csic.es/)
@@ -28,7 +23,12 @@ title: About me
 * 2012-2016: Mach Learn Sci @UNIZAR
 * 2017-2018: Mach Learn Sci @[UTC](https://www.utc.fr/)
 * 2019-2020: Img Proc & Mach Learn Sci @UNIZAR
-* 2020- : Data Sci & Mach Learn Sci @[Deusto](https://www.deusto.es/)
+* 2020- : Data Eng & Mach Learn Sci @[Deusto](https://www.deusto.es/)
+
+#### Interests
+* Mach Learn (& AI)
+* Data Eng
+* R&D
 
 #### Links
 * [GitHub](https://github.com/quesadagranja)
