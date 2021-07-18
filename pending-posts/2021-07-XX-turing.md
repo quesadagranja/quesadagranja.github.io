@@ -16,14 +16,14 @@ image: /thumbs/XXX.jpg
 
 MTG, however, has a steep learning curve that makes it hard to understand at first. The complexity of its rules may be discouraging  (each card has its own instructions!) and, to top it off, it's often considered a *game for nerds*. If, despite that, you want to learn how to play, I recommend the computer version, [*MTG Arena*](https://magic.wizards.com/es/mtgarena), which is freemium, fully playable and has an excellent tutorial.
 
-### The science behind MTG
-It has recently been [proven](https://arxiv.org/abs/1904.09828) that **MTG is Turing-complete**. A system is Turing-complete when it can be used to simulate any **Turing machine**. Or, in other words, a Turing-complete system can solve any computational algorithm. So, MTG can be used to *program* things!
+### Turing completeness of MTG
+It has recently been [stated](https://arxiv.org/abs/1904.09828) that **MTG is Turing-complete**. A system is Turing-complete when it can be used to simulate any **Turing machine**. Or, in other words, a Turing-complete system can solve any computational algorithm. So, MTG can be used to *program* things!
 
 But let's take it step by step. Turing machines, proposed by the mathematician **Alan Turing** in 1936, are a class of **automata** able to take a program, run that program and show some result. A Turing machine is made up by four components:
 
 1. an infinite one-dimensional **tape** divided into squares;
 2. a finite alphabet of **symbols** for the tape;
-3. a tape scanner with a finite number of **states**; and
+3. a tape scanner with a finite number of **states** (as in [finite-state machines](https://en.wikipedia.org/wiki/Finite-state_machine)); and
 4. a finite **instruction table** that tells what to do with each combination of scanner state and tape symbols.
 
 This is how it works: the machine positions its tape scanner over a square on the tape and *reads* the symbol written on it. Then, based on the symbol read and the state of the tape scanner, the machine looks in the instruction table for
@@ -34,4 +34,18 @@ This is how it works: the machine positions its tape scanner over a square on th
 
 If the process has not halted, the tape scanner reads the current square and so on.
 
-With these simple rules it is possible to run any conceivable algorithm. However, the instruction table may not necessarily be easy to find, and the number of steps required to reach a result may not necessarily be small. [This website](https://turingmaschine.klickagent.ch/einband/?&lang=en#__) illustrates step by step how some Turing machines compute simple operations between numbers. For example, [multiplying 3 by 4](https://turingmaschine.klickagent.ch/einband/?&lang=en#3_*_4) using a 2-symbol, 17-state machine requires 261 steps!
+With these simple rules it is possible to run any conceivable algorithm. However, the instruction table may not necessarily be easy to find, and the number of steps required to reach a result may not necessarily be small.
+
+[This website](https://turingmaschine.klickagent.ch/einband/?&lang=en#__) illustrates step by step how some Turing machines compute simple operations between numbers. For example, they use a 2-symbol, 17-state machine to solve products of two integers represented by the unary numeral system (in which 5 is 11111). Solving [3 x 4](https://turingmaschine.klickagent.ch/einband/?&lang=en#3_*_4) requires 261 steps! Not so cool, considering that you have to count the twelve 1s to know the result.
+
+### The prove
+To prove that a programming language, device or system is **Turing-complete** all you have to do is to show that it can be used to implement a [**universal Turing machine**](https://www.i-programmer.info/programming/theory/10068-the-trick-of-the-mind-turing-complete.html?start=1). That is, that it can simulate the behavior of **any other** Turing machine.
+
+In general, a system with a control flow that includes conditionals and loops, and something that works as a memory, is usually Turing-complete. All general-purpose programming languages such as C, Python or Java are Turing-complete. And surprisingly, other unexpected systems are also Turing-complete (although used in an unconventional way). This is the case of Microsoft Office [*Excel*](https://techcommunity.microsoft.com/t5/excel-blog/announcing-lambda-turn-excel-formulas-into-custom-functions/ba-p/1925546) and [*PowerPoint*](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf); the videogames [*Minecraft*](https://www.youtube.com/watch?v=7sNge0Ywz-M) and [*Cities: Skylines*](https://kotaku.com/cities-skylines-map-becomes-a-poop-powered-calculator-1836398063); and the zero-person [game of life](http://rendell-attic.org/gol/tm.htm), to mention a few.
+
+And what about MTG?
+
+
+* Faceless Haven + The Book of Exalted Deeds
+* Body of Research + Fling
+* 
