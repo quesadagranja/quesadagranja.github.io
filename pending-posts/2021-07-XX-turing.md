@@ -17,7 +17,7 @@ image: /thumbs/XXX.jpg
 MTG, however, has a steep learning curve that makes it hard to understand at first. The complexity of its rules may be discouraging  (each card has its own instructions!) and, to top it off, it's often considered a *game for nerds*. If, despite that, you want to learn how to play, I recommend the computer version, [*MTG Arena*](https://magic.wizards.com/es/mtgarena), which is freemium, fully playable and has an excellent tutorial.
 
 ### Turing completeness of MTG
-It has recently been [stated](https://arxiv.org/abs/1904.09828) that **MTG is Turing-complete**. A system is Turing-complete when it can be used to simulate any **Turing machine**. Or, in other words, a Turing-complete system can solve any computational algorithm. So, MTG can be used to *program* things!
+It has recently been ([Churchill et al.](https://arxiv.org/abs/1904.09828)) stated that **MTG is Turing-complete**. A system is Turing-complete when it can be used to simulate any **Turing machine**. Or, in other words, a Turing-complete system can solve any computational algorithm. So, MTG can be used to *program* things!
 
 But let's take it step by step. Turing machines, proposed by the mathematician **Alan Turing** in 1936, are a class of **automata** able to take a program, run that program and show some result. A Turing machine is made up by four components:
 
@@ -39,13 +39,28 @@ With these simple rules it is possible to run any conceivable algorithm. However
 [This website](https://turingmaschine.klickagent.ch/einband/?&lang=en#__) illustrates step by step how some Turing machines compute simple operations between numbers. For example, they use a 2-symbol, 17-state machine to solve products of two integers represented by the unary numeral system (in which 5 is 11111). Solving [3 x 4](https://turingmaschine.klickagent.ch/einband/?&lang=en#3_*_4) requires 261 steps! Not so cool, considering that you have to count the twelve 1s to know the result.
 
 ### The prove
-To prove that a programming language, device or system is **Turing-complete** all you have to do is to show that it can be used to implement a [**universal Turing machine**](https://www.i-programmer.info/programming/theory/10068-the-trick-of-the-mind-turing-complete.html?start=1). That is, that it can simulate the behavior of **any other** Turing machine.
+To prove that a programming language, device or system is **Turing-complete** all you have to do is to show that it can be used to implement a [**universal Turing machine**](https://www.i-programmer.info/programming/theory/10068-the-trick-of-the-mind-turing-complete.html?start=1) (UTM). That is, that it can simulate the behavior of **any other** Turing machine.
 
-In general, a system with a control flow that includes conditionals and loops, and something that works as a memory, is usually Turing-complete. All general-purpose programming languages such as C, Python or Java are Turing-complete. And surprisingly, other unexpected systems are also Turing-complete (although used in an unconventional way). This is the case of Microsoft Office [*Excel*](https://techcommunity.microsoft.com/t5/excel-blog/announcing-lambda-turn-excel-formulas-into-custom-functions/ba-p/1925546) and [*PowerPoint*](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf); the videogames [*Minecraft*](https://www.youtube.com/watch?v=7sNge0Ywz-M) and [*Cities: Skylines*](https://kotaku.com/cities-skylines-map-becomes-a-poop-powered-calculator-1836398063); and the zero-person [game of life](http://rendell-attic.org/gol/tm.htm), to mention a few.
+In general, a system that has a control flow that allows conditionals and loops, and has something that works as a memory is usually Turing-complete. All general-purpose programming languages such as C, Python or Java are Turing-complete. But accidentally, there are other systems that are also Turing-complete if you force them a little. This is the case of the zero-person [game of life](http://rendell-attic.org/gol/tm.htm), the videogames [*Minecraft*](https://www.youtube.com/watch?v=1X21HQphy6I) and [*Cities: Skylines*](https://kotaku.com/cities-skylines-map-becomes-a-poop-powered-calculator-1836398063), and even Microsoft Office  [*PowerPoint*](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf), to mention a few.
 
-And what about MTG?
+A set of very small UTMs are often used to prove that a system is Turing-complete. Among them are the ones found by Yurii Rogozhin in his paper [*Small universal Turing machines*](https://www.sciencedirect.com/science/article/pii/S0304397596000771) (1996). The smallest one, known as Rogozhin UTM(4, 6), has 4 states, 6 symbols and 22 instructions. <!--No lesser complexity is known.--> Other Rogozhin UTMs are UTM(15, 2), UTM(9, 3), UTM(6, 4), UTM(5, 5), UTM(3, 9), and UTM(2, 18). If you can embed one of these in your system, you've got it!
+
+((Chiste))
+
+### What about MTG?
+
+Churchill et al. embed the Rogozhin UTM(2, 18) in MTG. How they achieve this is very complex, but some key points are as follows.
+
+* The **tape** is emulated by means of creature tokens. The values of *power/hardness* of the creatures represent their position relative to the tape scanner, which is centered at 2/2. The color of the creatures represents whether the tape moves to the left (green) or to the right (white).
+* The 18 **symbols** of the Turing machine are represented using 18 creature types: (1) Aetherborn, (2) Basilisk, (3) Cephalid, (4) Demon, (5) Elf, (6) Faerie, (7) Giant, (8) Harpy, (9) Illusion, (10) Juggernaut, (11) Kavu, (12) Leviathan, (13) Myr, (14) Noggle, (15) Orc, (16) Pegasus, (17) Rhino, and (18) Sliver. For example, a white 6/6 Kavu token indicates that the 11th symbol is written on the 4th square to the right of the tape scanner.
+* Certain cards, such as [*Rotlung Reanimator*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170415), [*Artificial Evolution*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170318), and [*Glamerdye*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=180649), are used to transform any creature into whatever is of most interest at any given time. This allows the **instruction table** to be fully implemented. Similarly, [*Cloak of Invisibility*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3329) allows creatures to be *phased in* and *phased out*, which makes it possible to implement the two **states** of the machine.
+
+The following video explains the whole process in more detail:
+
+((https://www.youtube.com/watch?v=YzXoFldEux4))
 
 
+<!--
 * Faceless Haven + The Book of Exalted Deeds
 * Body of Research + Fling
-* 
+-->
