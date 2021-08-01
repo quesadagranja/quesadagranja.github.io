@@ -49,16 +49,18 @@ A set of very small UTMs are often used to prove that a system is Turing-complet
 
 ### What about MTG?
 
-Churchill et al. embed the Rogozhin UTM(2, 18) in MTG. How they achieve this is very complex, but some key points are as follows.
+Churchill et al. embed the **Rogozhin UTM(2, 18)** in MTG. How they achieve this is very complex and requires a fairly high level of knowledge of MTG mechanics, but some key points are as follows.
 
-* The **tape** is emulated by means of creature tokens. The values of *power/hardness* of the creatures represent their position relative to the tape scanner, which is centered at 2/2. The color of the creatures represents whether the tape moves to the left (green) or to the right (white).
-* The 18 **symbols** of the Turing machine are represented using 18 creature types: (1) Aetherborn, (2) Basilisk, (3) Cephalid, (4) Demon, (5) Elf, (6) Faerie, (7) Giant, (8) Harpy, (9) Illusion, (10) Juggernaut, (11) Kavu, (12) Leviathan, (13) Myr, (14) Noggle, (15) Orc, (16) Pegasus, (17) Rhino, and (18) Sliver. For example, a white 6/6 Kavu token indicates that the 11th symbol is written on the 4th square to the right of the tape scanner.
-* Certain cards, such as [*Rotlung Reanimator*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170415), [*Artificial Evolution*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170318), and [*Glamerdye*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=180649), are used to transform any creature into whatever is of most interest at any given time. This allows the **instruction table** to be fully implemented. Similarly, [*Cloak of Invisibility*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3329) allows creatures to be *phased in* and *phased out*, which makes it possible to implement the two **states** of the machine.
+* The **tape** is emulated by means of creature tokens. The *power/hardness* values of the creature tokens represent their position relative to the tape scanner, which is centered at 2/2. The color of the creatures represents whether the tape moves to the left (green) or to the right (white).
+* The 18 **symbols** of the Turing machine are represented using 18 creature types: (1) Aetherborn, (2) Basilisk, (3) Cephalid, (4) Demon, (5) Elf, (6) Faerie, (7) Giant, (8) Harpy, (9) Illusion, (10) Juggernaut, (11) Kavu, (12) Leviathan, (13) Myr, (14) Noggle, (15) Orc, (16) Pegasus, (17) Rhino, and (18) Sliver. For example, a white 6/6 Kavu creature indicates that the 11th symbol is written on the 4th square to the right of the tape scanner.
+* Certain cards, such as [*Rotlung Reanimator*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170415) (creates 2/2 black Zombie creature tokens), [*Artificial Evolution*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170318) (replaces the criature type), and [*Glamerdye*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=180649) (replaces the criature color), are used to generate the creature needed at any time. This allows the **instruction table** to be fully implemented.
+* Similarly, [*Cloak of Invisibility*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3329) allows creatures to be *phased in* and *phased out*, which makes it possible to implement the two **states** of the machine. In addition, other cards are required for other relevant purposes, such as halting the device, changing states, removing choices, generating unlimited mana, and so on.
 
 The following video explains the whole process in more detail:
 
 ((https://www.youtube.com/watch?v=YzXoFldEux4))
 
+From my point of view, the exercise of embedding a universal Turing machine in _Magic: The Gathering_ is a very original theoretical work but hardly transferable to a real game.
 
 <!--
 * Faceless Haven + The Book of Exalted Deeds
