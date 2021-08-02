@@ -43,10 +43,10 @@ To prove that a programming language, device or system is **Turing-complete** al
 
 In general, a system that has a control flow that allows conditionals and loops, and has something that works as a memory is usually Turing-complete. All general-purpose programming languages such as C, Python or Java are Turing-complete. But accidentally, there are other systems that are also Turing-complete if you force them a little. This is the case of the zero-person [game of life](http://rendell-attic.org/gol/tm.htm), the videogames [*Minecraft*](https://www.youtube.com/watch?v=1X21HQphy6I) and [*Cities: Skylines*](https://kotaku.com/cities-skylines-map-becomes-a-poop-powered-calculator-1836398063), and even Microsoft Office  [*PowerPoint*](https://www.andrew.cmu.edu/user/twildenh/PowerPointTM/Paper.pdf), to mention a few.
 
-In the following XKCD comic strip, the starring sticksman creates a UTM only with rows of stones.
+In the following [XKCD comic strip](https://xkcd.com/505/), the starring sticksman creates a UTM only with rows of stones.
 
 ![](/img/a_bunch_of_rocks.png)
-*<center><small>[A bunch of rocks](https://xkcd.com/505/), by XKCD.</small></center>*
+*<center><small>A bunch of rocks, by XKCD.</small></center>*
 
 A set of very small UTMs are often used to prove that a system is Turing-complete. Among them are the ones found by Yurii Rogozhin in his paper [*Small universal Turing machines*](https://www.sciencedirect.com/science/article/pii/S0304397596000771) (1996). The smallest one, known as Rogozhin UTM(4, 6), has 4 states, 6 symbols and 22 instructions. <!--No lesser complexity is known.--> Other Rogozhin UTMs are UTM(15, 2), UTM(9, 3), UTM(6, 4), UTM(5, 5), UTM(3, 9), and UTM(2, 18). If you can embed one of these in your system, you've got it!
 
