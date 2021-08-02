@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The science behind 'Magic: The Gathering'"
+title: "The science behind Magic: The Gathering"
 date: 2021-08-02
 image: /thumbs/mtg-logo.jpg
 ---
@@ -15,7 +15,7 @@ image: /thumbs/mtg-logo.jpg
 **Uncolored** and **multi-colored** cards also exist. And cats, [many kinds of cats](https://hobbylark.com/card-games/best-cat-cards-mtg). The catalog is really huge, continually expanding since 1993 and can be consulted on [*Gatherer*](https://gatherer.wizards.com/Pages/Default.aspx), the MTG card database.
 
 ![](/img/magic-cards.jpg)
-*<center><small>Old MTG cards.</small></center>*
+<!--*<center><small>Old MTG cards.</small></center>*-->
 
 MTG, however, has a steep learning curve that makes it hard to understand at first. The complexity of its rules may be discouraging  (each card has its own instructions!) and, to top it off, it's often considered a *game for nerds*. If, despite that, you want to learn how to play, I recommend the computer version, [*MTG Arena*](https://magic.wizards.com/es/mtgarena), which is freemium, fully playable and has an excellent tutorial.
 
@@ -30,7 +30,7 @@ But let's take it step by step. Turing machines, proposed by the mathematician *
 4. a finite **instruction table** that tells what to do with each combination of scanner state and tape symbols.
 
 ![](/img/utm-card.PNG)
-*<center><small>In the document [A Business Card Universal Turing Machine](http://alvyray.com/CreativeCommons/BizCardUniversalTuringMachine_v2.3.pdf), a Turing machine is originally represented as a business card. It has a hole in the center through which only one **symbol** on the **tape** can be seen. The **states** of the tape scanner are the four ways of orienting the card on the tape, which allows to properly read a different instruction table each time.</small></center>*
+*<center><small>In the document 'A Business Card Universal Turing Machine', a Turing machine is imaginatively represented as a business card. It has a hole in the center through which only one **symbol** on the **tape** can be seen. The **states** of the tape scanner are the four possible ways of orienting the card on the tape, which allows to properly read a different **instruction table**.</small></center>*
 
 This is how it works: the machine positions its tape scanner over a square on the tape and *reads* the symbol written on it. Then, based on the symbol read and the state of the tape scanner, the machine looks in the instruction table for
 
