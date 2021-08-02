@@ -48,7 +48,7 @@ In the following [XKCD comic strip](https://xkcd.com/505/), the starring sticksm
 ![](/img/a_bunch_of_rocks.png)
 *<center><small>A bunch of rocks, by XKCD.</small></center>*
 
-A set of very small UTMs are often used to prove that a system is Turing-complete. Among them are the ones found by Yurii Rogozhin in his paper [*Small universal Turing machines*](https://www.sciencedirect.com/science/article/pii/S0304397596000771) (1996). The smallest one, known as Rogozhin UTM(4, 6), has 4 states, 6 symbols and 22 instructions. <!--No lesser complexity is known.--> Other Rogozhin UTMs are UTM(15, 2), UTM(9, 3), UTM(6, 4), UTM(5, 5), UTM(3, 9), and UTM(2, 18). If you can embed one of these in your system, you've got it!
+A set of very small UTMs exists that are Turing-complete. Among them are the ones found by Yurii Rogozhin in his paper [*Small universal Turing machines*](https://www.sciencedirect.com/science/article/pii/S0304397596000771) (1996). The simplest known one, the Rogozhin UTM(4, 6) has, as its name suggests, 4 states and 6 symbols, and its instruction table is made up by 22 instructions. Other Rogozhin UTMs are UTM(15, 2), UTM(9, 3), UTM(6, 4), UTM(5, 5), UTM(3, 9), and UTM(2, 18). If you can embed one of these in your system, you've got it: it's Turing-complete!
 
 ### What about MTG?
 
