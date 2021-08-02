@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The science behind 'Magic: The Gathering'"
-date: 2021-07-08
-image: /thumbs/XXX.jpg
+date: 2021-08-02
+image: /thumbs/mtg-logo.jpg
 ---
 **Magic: The Gathering** (**MTG**) is a funny trading card game inspired by fantasy role-playing games. MTG emulates a combat between players' creatures, where not only their strength matters but also their abilities. Everything revolves around magic, which is present in the form of enchantments, artifacts, sorceries and many other exciting spells. There is a huge variety of creatures (and other spells) with which to compose your deck, roughly organized in five colors:
 
@@ -53,16 +53,23 @@ Churchill et al. embed the **Rogozhin UTM(2, 18)** in MTG. How they achieve this
 
 * The **tape** is emulated by means of creature tokens. The *power/hardness* values of the creature tokens represent their position relative to the tape scanner, which is centered at 2/2. The color of the creatures represents whether the tape moves to the left (green) or to the right (white).
 * The 18 **symbols** of the Turing machine are represented using 18 creature types: (1) Aetherborn, (2) Basilisk, (3) Cephalid, (4) Demon, (5) Elf, (6) Faerie, (7) Giant, (8) Harpy, (9) Illusion, (10) Juggernaut, (11) Kavu, (12) Leviathan, (13) Myr, (14) Noggle, (15) Orc, (16) Pegasus, (17) Rhino, and (18) Sliver. For example, a white 6/6 Kavu creature indicates that the 11th symbol is written on the 4th square to the right of the tape scanner.
-* Certain cards, such as [*Rotlung Reanimator*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170415) (creates 2/2 black Zombie creature tokens), [*Artificial Evolution*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170318) (replaces the criature type), and [*Glamerdye*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=180649) (replaces the criature color), are used to generate the creature needed at any time. This allows the **instruction table** to be fully implemented.
-* Similarly, [*Cloak of Invisibility*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3329) allows creatures to be *phased in* and *phased out*, which makes it possible to implement the two **states** of the machine. In addition, other cards are required for other relevant purposes, such as halting the device, changing states, removing choices, generating unlimited mana, and so on.
+* Certain cards, such as [*Rotlung Reanimator*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170415) (creates 2/2 black Zombie creature tokens), [*Artificial Evolution*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=170318) (replaces the creature type), and [*Glamerdye*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=180649) (replaces the creature color), are used to generate the creature that is needed at any time. This allows the **instruction table** to be fully implemented.
+* Similarly, [*Cloak of Invisibility*](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3329) allows creatures to be *phased in* and *phased out*, which makes it possible to implement the two **states** of the machine. In addition, other cards are required for other relevant purposes, such as halting the device, changing states, generating unlimited mana, and so on.
 
 The following video explains the whole process in more detail:
 
-((https://www.youtube.com/watch?v=YzXoFldEux4))
+<div class="youtube-video-container">
+    <iframe 
+        width="100%"
+        src="https://www.youtube.com/watch?v=YzXoFldEux4"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+    ></iframe>
+</div>
 
-From my point of view, the exercise of embedding a universal Turing machine in _Magic: The Gathering_ is a very original theoretical work but hardly transferable to a real game.
+### Some final remarks
+In a normal game you cannot arbitrarily play the cards you want. Indeed, you must prepare a deck of 60 cards and randomly draw a starting hand of 7 cards. However, Churchill et al. propose in their paper a sequence of cards to start with that is very unlikely to appear randomly in an initial hand. There are other weaknesses, such as all the time and space it would take to manually run the Turing machine with the MTG cards.
 
-<!--
-* Faceless Haven + The Book of Exalted Deeds
-* Body of Research + Fling
--->
+The exercise of embedding a universal Turing machine in _Magic: The Gathering_ is a very original theoretical work (that I admire) but, from my point of view, it's hardly transferable in a real game. 
