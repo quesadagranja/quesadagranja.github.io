@@ -30,7 +30,7 @@ But let's take it step by step. Turing machines, proposed by the mathematician *
 4. a finite **instruction table** that tells what to do with each combination of scanner state and tape symbols.
 
 ![](/img/utm-card.PNG)
-*<center><small>In the document 'A Business Card Universal Turing Machine', a Turing machine is imaginatively represented as a business card. It has a hole in the center through which only one **symbol** on the **tape** can be seen. The **states** of the tape scanner are the four possible ways of orienting the card on the tape, which allows to properly read a different **instruction table**.</small></center>*
+*<center><small>In the document 'A Business Card Universal Turing Machine', a Turing machine is imaginatively represented as a business card. It has a hole in the center through which only one symbol on the tape can be seen. The states of the tape scanner are the four possible ways of orienting the card on the tape, which allows to properly read a different instruction table.</small></center>*
 
 This is how it works: the machine positions its tape scanner over a square on the tape and *reads* the symbol written on it. Then, based on the symbol read and the state of the tape scanner, the machine looks in the instruction table for
 
