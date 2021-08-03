@@ -32,7 +32,7 @@ But let's take it step by step. Turing machines, proposed by the mathematician *
 In the article that can be found [here](http://alvyray.com/CreativeCommons/BizCardUniversalTuringMachine_v2.3.pdf), a Turing machine is represented in a very original way as a business card. This business card has a hole in the center (the tape scanner) through which only one symbol written on the tape can be seen. The states of the tape scanner are represented by the four possible ways of orienting the card on the tape. Each orientation allows a different instruction table to be properly interpreted.
 
 ![](/img/utm-card.PNG)
-*<center><small>Image extracted from *A Business Card Universal Turing Machine* by A. R. Smith.</small></center>*
+*<center><small>Image extracted from ‘A Business Card Universal Turing Machine’ by A. R. Smith.</small></center>*
 
 Whatever way it is represented, this is how it works: the machine positions its tape scanner over a square on the tape and *reads* the symbol written on it. Then, based on the symbol read and the state of the tape scanner, the machine looks in the instruction table for
 
