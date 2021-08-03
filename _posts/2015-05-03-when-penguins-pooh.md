@@ -2,7 +2,7 @@
 layout: post
 title: "When penguins pooh"
 date: 2015-05-03
-image: /thumbs/penguins-pooh-thumbnail.jpg
+image: /img/pooh/thumb.jpg
 ---     
 In December 2003, the scientific journal [_Polar Biology_](https://www.springer.com/journal/300) (Springer) published an article entitled [_Pressures produced when penguins pooh—calculations on avian
 defaecation_](http://iposeogsekk.com/penguano.pdf).
@@ -12,7 +12,7 @@ by Mirages?_](https://arago.elte.hu/sites/default/files/MiragePol_NAWI.pdf) or [
 
 The penguin guano article won the [Ig Nobel Prize in 2005](https://www.improbable.com/ig-about/winners/#ig2005), in the Fluid Dynamics category. These awards are given to those investigations that first make people laugh and then make them think. Beyond curiosity, the article is interesting. Apparently, there are a couple of penguin species that expel their feces by applying pressure, which allows them to keep their nests clean while remaining on the spot.
 
-![](/img/penguin-pooh.png)
+![](/img/pooh/penguin-pooh.png)
 *<center><small>Illustration of the penguin's position as it appears in the original article.</small></center>*
 
 The research made it possible to calculate this pressure, which can reach up to 60 kPa (kilopascals). To get an idea, 60 kPa is a load equivalent to half the recommended pressure in a regulation soccer ball; or almost the pressure inside an incandescent light bulb; or even three times the pressure of the sound produced by the explosion of the Krakatoa volcano 160 km away.

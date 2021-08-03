@@ -2,7 +2,7 @@
 layout: post
 title: "The science behind ‘Magic: The Gathering’"
 date: 2021-08-02
-image: /thumbs/mtg-logo.jpg
+image: /img/mtg/thumb.jpg
 ---
 **Magic: The Gathering** (**MTG**) is a funny trading card game inspired by fantasy role-playing games. MTG emulates a combat between players' creatures, where not only their strength matters but also their abilities. Everything revolves around magic, which is present in the form of enchantments, artifacts, sorceries and many other exciting spells. There is a huge variety of creatures (and other spells) with which to compose your deck, roughly organized in five colors:
 
@@ -14,7 +14,7 @@ image: /thumbs/mtg-logo.jpg
 
 **Uncolored** and **multi-colored** cards also exist. And cats, [many kinds of cats](https://hobbylark.com/card-games/best-cat-cards-mtg). The catalog is really huge, continually expanding since 1993 and can be consulted on [*Gatherer*](https://gatherer.wizards.com/Pages/Default.aspx), the MTG card database.
 
-![](/img/magic-cards.jpg)
+![](/img/mtg/magic-cards.jpg)
 <!--*<center><small>Old MTG cards.</small></center>*-->
 
 MTG, however, has a steep learning curve that makes it hard to understand at first. The complexity of its rules may be discouraging  (each card has its own instructions!) and, to top it off, it's often considered a *game for nerds*. If, despite that, you want to learn how to play, I recommend the computer version, [*MTG Arena*](https://magic.wizards.com/es/mtgarena), which is freemium, fully playable and has an excellent tutorial.
@@ -31,7 +31,7 @@ But let's take it step by step. Turing machines, proposed by the mathematician *
 
 In the article that can be found [here](http://alvyray.com/CreativeCommons/BizCardUniversalTuringMachine_v2.3.pdf), a Turing machine is represented in a very original way as a business card. This business card has a hole in the center (the tape scanner) through which only one symbol written on the tape can be seen. The states of the tape scanner are represented by the four possible ways of orienting the card on the tape. Each orientation allows a different instruction table to be properly interpreted.
 
-![](/img/utm-card.PNG)
+![](/img/mtg/utm-card.PNG)
 *<center><small>Image extracted from ‘A Business Card Universal Turing Machine’ by A. R. Smith.</small></center>*
 
 Whatever way it is represented, this is how it works: the machine positions its tape scanner over a square on the tape and *reads* the symbol written on it. Then, based on the symbol read and the state of the tape scanner, the machine looks in the instruction table for
@@ -53,7 +53,7 @@ In general, a system that has a control flow that allows conditionals and loops,
 
 In the following [XKCD comic strip](https://xkcd.com/505/), the starring sticksman creates a UTM only with rows of stones.
 
-![](/img/a_bunch_of_rocks.png)
+![](/img/mtg/a_bunch_of_rocks.png)
 *<center><small>A bunch of rocks, by XKCD.</small></center>*
 
 A set of very small UTMs exists that are Turing-complete. Among them are the ones found by Yurii Rogozhin in his paper [*Small universal Turing machines*](https://www.sciencedirect.com/science/article/pii/S0304397596000771) (1996). The simplest known one, the Rogozhin UTM(4, 6) has, as its name suggests, 4 states and 6 symbols, and its instruction table is made up of 22 instructions. Other Rogozhin UTMs are UTM(15, 2), UTM(9, 3), UTM(6, 4), UTM(5, 5), UTM(3, 9), and UTM(2, 18). If you can embed one of these in your system, you've got it: it's Turing-complete!

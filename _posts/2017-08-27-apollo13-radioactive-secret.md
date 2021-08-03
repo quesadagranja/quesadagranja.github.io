@@ -2,11 +2,11 @@
 layout: post
 title: "Apollo 13's radioactive secret"
 date: 2017-08-27
-image: /thumbs/rtg-apollo-13-thumbnail.jpg
+image: /img/apollo-13/thumb.jpg
 ---     
 On April 11, 1970, NASA launched the **Apollo 13** manned spacecraft with the intention of landing for the third time on the Moon. Halfway, during the second day of travel, an oxygen tank of the spacecraft burst and destroyed a couple of modules. The three crew members struggled to survive in the half-destroyed ship. After five very complicated days, they were able to return safely back to Earth —or not so safely, since one of them got a urine infection due to holding his pee for too long.
 
-![](/img/rtg-apollo-13-splash.jpg)
+![](/img/apollo-13/rtg-apollo-13-splash.jpg)
 *<center><small>Moment in which Apollo 13 splashed down.</small></center>*
 
 This is not an unknown story. On the contrary, Hollywood already monetized it in 1995, with the Oscar-nominated movie [*Apollo 13*](https://www.imdb.com/title/tt0112384/). This article, however, is not about how skillful and lucky the crew was, but about the little present that the Lunar Module (a part of the Apollo 13 that also went back to the Earth) left in the Pacific ocean when it sank.
@@ -19,7 +19,7 @@ It is not necessary to go the outer space to find the practical value of those b
 
 However, we have all seen on TV launch failures of spaceships that explode before leaving the atmosphere. When this occurs, what happens to the RTGs? It is obvious: they become a disastrous cloud of **highly radioactive waste**. And it has already happened [several times](https://listverse.com/2012/01/20/top-10-space-age-radiation-incidents/).
 
-![](/img/rtg-woman-measuring.jpg)
+![](/img/apollo-13/rtg-woman-measuring.jpg)
 *<center><small>Woman measuring the radiation of an RTG.</small></center>*
 
 For example, in 1961, the *Transit* satellites of the US military navigation system were the first ones in incorporating these RTGs. Until 1964. That year, something went wrong when putting the satellite *Transit 5BN-3* in orbit and it just volatilized when reentering the Earth’s athmosphere, at the same latitude as Madagascar. Its destruction injected into the air 630 TBq (terabecquerels) of plutonium-238, whose traces were detected for months. From that moment on, it was decided that such operational satellites would be powered using solar energy, since it is [*less costly*](https://space.skyrocket.de/doc_sdat/transit-5bn.htm).

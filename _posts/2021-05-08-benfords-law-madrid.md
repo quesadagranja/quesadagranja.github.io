@@ -2,7 +2,7 @@
 layout: post
 title: "Benford's law and the 2021 Madrid regional election"
 date: 2021-05-08
-image: /thumbs/madrid-election-thumbnail.jpg
+image: /img/benford/thumb.jpg
 ---
 I originally wanted the title of this post to be "*Was the 2021 Madrid regional election fraudulent?*", but I found it too much for a post about observation-based laws and R code.
 
@@ -17,12 +17,12 @@ In particular, this post focuses on [**Benford's Law**](https://en.wikipedia.org
 In all these collections, the digit that most of the numbers start with is 1, then 2, then 3... and so on, with 9 being the digit that the fewest numbers start with.
 The website [testingbenfordslaw.com](testingbenfordslaw.com) provides a visual check of these examples and many more.
 
-![](/img/benford-distribution-450px.png)
+![](/img/benford/benford-distribution-450px.png)
 *<center><small>The distribution of the first digits, according to Benford's law. Image from Wikipedia.</small></center>*
 
 This law, which might seem not so relevant, has interesting applications in the fields of forensic accounting, auditing and **fraud detection**, as described in the book by M. J. Nigrini, [*Benford's law*](https://books.google.es/books/about/Benford_s_Law.html?id=Bh5Vr_I1NZoC). Among the frauds that are often analyzed with Benford's law are tax fraud and also **electoral fraud**. For example, a claim that circulated on social media after the 2020 US Presidential election was that some of the votes for Joe Biden seemed suspicious because they did not follow Benford's law. The tweet below is an example.
 
-![](/img/twitter-benford-500px.png)
+![](/img/benford/twitter-benford-500px.png)
 [*<center><small>Tweet by @PetersonAmoriah</small></center>*](https://twitter.com/PetersonAmoriah/status/1333593122861846528)
 
 Last Tuesday (May 4th) there were regional elections in Madrid and I wanted to check whether Benford's law holds true for the results of each municipality in the region. Six main political parties contested the 136 seats in the Madrid Assembly and [the results](https://resultados2021.comunidad.madrid/Resultados/Comunidad-de-Madrid/0/es) were as follows:
@@ -35,7 +35,7 @@ Last Tuesday (May 4th) there were regional elections in Madrid and I wanted to c
 
 The results per municipality and per polling station can be found at [the official site](https://resultados2021.comunidad.madrid/Mesas/es) of the elections. To make things easier though, I have created two CSV files from this data, which can be found in [my GitHub repository](https://github.com/quesadagranja/blog/tree/main/benfords_law). In addition, to analyze the data using Benford's law, I have prepared a very simple piece of code in R that makes use of the [``benford.analysis``](https://search.r-project.org/CRAN/refmans/benford.analysis/html/benford.html) package. The script, which can also be found in my repository, represents a histogram with the leading digits of the electoral results for each municipality of Madrid, and compares it with the ideal curve according to Benford's law. The results are shown below for each of the six main parties:
 
-![](/img/benford-parties.png)
+![](/img/benford/benford-parties.png)
 *<center><small>The blue bars show the real distribution of leading digits, whereas the red curve shows the ideal distribution following Benford's law.</small></center>*
 
 As can be seen, **none** of the histograms perfectly meet expectations. The same happens when polling station data is used instead of municipality data. Does this mean that the elections were rigged? I don't think so, because the election result was very close to what most polls predicted weeks ago. So, what's happening here?

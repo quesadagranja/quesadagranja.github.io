@@ -2,7 +2,7 @@
 layout: post
 title: "An R package for PGD"
 date: 2021-04-10
-image: /thumbs/pgd-surface-thumbnail.jpg
+image: /img/pooh/thumb.jpg
 ---
 I just released on my GitHub account the first package in **R** (as far as I know) focused on the [**Proper Generalized Decomposition**](https://en.wikipedia.org/wiki/Proper_generalized_decomposition)! I've unsurprisingly called it `pgd` and can be found [here](https://github.com/quesadagranja/pgd "here"). At the moment it only solves boundary value problems based on the **2D Poisson's equation** in Cartesian coordinates. Depending on its "success", I can consider extending it with other differential equations.
 
@@ -141,9 +141,9 @@ plot(o$coor$y, o$f$y[,1], type="l", xlab="y", ylab="Fy_1(y)")
 
 which gives as a result
 
-![](/img/example1-mode1x.png)
+![](/img/pooh/example1-mode1x.png)
 
-![](/img/example1-mode1y.png)
+![](/img/pooh/example1-mode1y.png)
 
 The surface of the solution can be plotted by using ``persp`` (only the first three arguments are strictly necessary; the rest are aesthetic extras):
 
@@ -166,7 +166,7 @@ persp(
 {% endhighlight %}
 ```
 
-![](/img/example1-surface.png)
+![](/img/pooh/example1-surface.png)
 
 #### Example #2
 $$
