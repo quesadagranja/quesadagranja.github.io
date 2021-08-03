@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The science behind Magic: The Gathering"
+title: "The science behind ‘Magic: The Gathering’"
 date: 2021-08-02
 image: /thumbs/mtg-logo.jpg
 ---
