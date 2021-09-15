@@ -27,7 +27,7 @@ title: About me
 
 #### Interests
 * Mach Learn (& AI)
-* Data Eng
+* Data Sci
 * R&D
 
 #### Links
