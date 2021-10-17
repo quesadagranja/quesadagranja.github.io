@@ -4,6 +4,8 @@ title: "Domestication of the fox"
 date: 2019-02-10
 image: /img/fox/thumb.jpg
 ---
+*This post is an old article (originally in Spanish) I wrote in 2019 on Blogger.*
+
 Domesticated animals present a series of changes in their morphology, physiology and behavior with respect to their wild variants. For example, in the case of the dog (as opposed to the wolf), some researchers have identified the existence of *pedomorphosis*, that is, the preservation of juvenile traits in adult individuals. Some of these traits, which do not occur in adult wolves, range from the shape of the skull, which is unusually wide for its length, to communication through whining, barking and submission. Other domesticated animals have undergone changes in size, coat color and even their reproductive cycle.
 
 For Russian geneticist **Dmitry Belyayev** (1917-1985), the factor that determines these changes in domesticated animals is their behavior and, in particular, their predisposition to tameness. To test his hypothesis, Belyayev reproduced the domestication process in an animal that had never been domesticated before. The aim was to observe whether or not these changes occurred. As an experimental model, he chose a species taxonomically close to the dog, **the fox** (*Vulpes vulpes*), and designed a selective breeding program focused on selecting the tamest individuals. Belyayev began his experiment in 1959 with 100 female and 30 male silver foxes (with dark fur) selected from several Estonian fur farms.
@@ -18,6 +20,3 @@ Only Class I foxes continued in the selection. From the sixth generation on, it 
 Foxes in the domesticated population showed an unusually high incidence of changes in some aspects of their morphology. The first change to become apparent was the fur color: some foxes showed a loss of pigmentation in some areas of the body that could even form a star-shaped pattern on the face, similar to that of some dog breeds. Later, other peculiarities have been documented, such as drooping ears and curled tails. In addition, after 15 to 20 generations, foxes with shorter tails, shorter legs and dental malocclusion (misalignment between upper and lower teeth) appeared.
 
 Thus, this experiment has shown that many characteristics developed by dogs during their evolutionary course towards domestication can be reproduced, in a few tens of generations, by a strong selective pressure focused on specific behaviors.
-
-
-*This post is an old article (originally in Spanish) I wrote in 2019 on Blogger.*

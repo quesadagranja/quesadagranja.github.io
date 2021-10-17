@@ -3,7 +3,9 @@ layout: post
 title: "When penguins pooh"
 date: 2015-05-03
 image: /img/pooh/thumb.jpg
----     
+---
+_This post is an adaptation and translation from Spanish of an older article I wrote in 2015 on Blogger._
+
 In December 2003, the scientific journal [_Polar Biology_](https://www.springer.com/journal/300) (Springer) published an article entitled [_Pressures produced when penguins pooh—calculations on avian
 defaecation_](http://iposeogsekk.com/penguano.pdf).
 
@@ -18,5 +20,3 @@ The penguin guano article won the [Ig Nobel Prize in 2005](https://www.improbabl
 The research made it possible to calculate this pressure, which can reach up to 60 kPa (kilopascals). To get an idea, 60 kPa is a load equivalent to half the recommended pressure in a regulation soccer ball; or almost the pressure inside an incandescent light bulb; or even three times the pressure of the sound produced by the explosion of the Krakatoa volcano 160 km away.
 
 So, let's be cautious: the next time we see the inanimate gaze of a penguin in a TV documentary, let's remember that under its tail a small Krakatoa is hiding, about to explode.
-
-_This post is an adaptation and translation from Spanish of an older article I wrote in 2015 on Blogger._
