@@ -7,7 +7,7 @@ title: About me
     <source src="/img/about/me.mp4" type="video/mp4" />
   </video>
 </center>
-<!--<center><small><a href="https://www.openstreetmap.org/#map=16/43.3830/-3.0075">Sopela beach</a>, July 2021</small></center>-->
+<center><small><a href="https://www.openstreetmap.org/#map=16/43.3830/-3.0075">Sopela beach</a>, July 2021</small></center>
 
 ## Carlos Quesada Granja
 
@@ -15,7 +15,7 @@ title: About me
 * 2008: BSc & MSc Telecommunication Engineering, [Miguel Hernández University of Elche](https://umh.es/)
 * 2010: [DEA](https://en.wikipedia.org/wiki/Master_of_Advanced_Studies) Information Technology, [University of Alicante](https://www.ua.es/)
 * 2014: MSc Applied Mechanics, [University of Zaragoza](http://www.unizar.es/)
-* 2017: PhD Engineering, University of Zaragoza [(Thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
+* 2017: PhD Engineering, University of Zaragoza [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
 #### Experience
 * 2005: Jr Software Developer, [Institute of Neurosciences of Alicante](http://in.umh-csic.es/)
