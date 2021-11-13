@@ -33,7 +33,7 @@ title: About me
 * 2012-2016: Machine Learning Scientist, University of Zaragoza
 * 2017-2018: Data Scientist, [University of Technology of Compiègne](https://www.utc.fr/)
 * 2019-2020: Image Processing & Machine Learning Scientist, University of Zaragoza
-* 2020- : Data Scientist, Associate Researcher at [University of Deusto](https://www.deusto.es/)
+* 2020- : Data Scientist (Associate Researcher), [University of Deusto](https://www.deusto.es/)
 
 ##### Research & Teaching
 * 13 research articles in indexed journals
