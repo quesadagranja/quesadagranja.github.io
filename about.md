@@ -11,13 +11,19 @@ title: About me
 
 ## Carlos Quesada Granja
 
-#### Education
+### Education
 * 2008: BSc & MSc Telecommunication Engineering, [Miguel Hernández University of Elche](https://umh.es/)
 * 2010: [DEA](https://en.wikipedia.org/wiki/Master_of_Advanced_Studies) Information Technology, [University of Alicante](https://www.ua.es/)
 * 2014: MSc Applied Mechanics, [University of Zaragoza](http://www.unizar.es/)
 * 2017: PhD Engineering, University of Zaragoza [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
-#### Experience
+##### Relevant courses
+* 2008: First year BSc in Computer Engineering, University of Alicante
+* 2009: Certificate of Pedagogical Aptitude, Miguel Hernández University of Elche
+* 2020: Deep Learning Specialization, [Coursera](http://coursera.org/verify/specialization/7VW4YHQ3K936)
+
+
+### Experience
 * 2005: Jr Software Developer, [Institute of Neurosciences of Alicante](http://in.umh-csic.es/)
 * 2010-2012: R&D Software Engineer & Machine Learning Scientist, Institute of Neurosciences of Alicante
 * 2012-2016: Machine Learning Scientist, University of Zaragoza
@@ -25,12 +31,12 @@ title: About me
 * 2019-2020: Image Processing & Machine Learning Scientist, University of Zaragoza
 * 2020- : Data Scientist, Associate Researcher at [University of Deusto](https://www.deusto.es/)
 
-#### Interests
-* Machine Learning (& Artificial Intelligence)
+### Interests
 * Data Science
+* Artificial Intelligence & Machine Learning
 * Research & Development
 
-#### Links
+### Links
 * [GitHub](https://github.com/quesadagranja),
 [Twitter](https://twitter.com/quesadagranja),
 [LinkedIn](https://www.linkedin.com/in/quesadagranja/)
