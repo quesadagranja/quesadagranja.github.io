@@ -22,7 +22,7 @@ title: About me
 * 2014: MSc Applied Mechanics, [University of Zaragoza](http://www.unizar.es/)
 * 2017: PhD Engineering, University of Zaragoza [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
-### Relevant courses
+##### Relevant courses
 * 2008: First year BSc Computer Engineering, University of Alicante
 * 2009: Certificate of Pedagogical Aptitude, Miguel Hernández University of Elche
 * 2020: Deep Learning Specialization, [Coursera](http://coursera.org/verify/specialization/7VW4YHQ3K936)
@@ -35,7 +35,7 @@ title: About me
 * 2019-2020: Image Processing & Machine Learning Scientist, University of Zaragoza
 * 2020- : Data Scientist, Associate Researcher at [University of Deusto](https://www.deusto.es/)
 
-### Research & Teaching
+##### Research & Teaching
 * 13 research articles published in indexed journals
 * Over 200 hours of university teaching
 * 1 BSc thesis supervised
