@@ -18,7 +18,7 @@ title: About me
 * 2017: PhD Engineering, University of Zaragoza [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
 ##### Relevant courses
-* 2008: First year BSc in Computer Engineering, University of Alicante
+* 2008: First year BSc Computer Engineering, University of Alicante
 * 2009: Certificate of Pedagogical Aptitude, Miguel Hernández University of Elche
 * 2020: Deep Learning Specialization, [Coursera](http://coursera.org/verify/specialization/7VW4YHQ3K936)
 
