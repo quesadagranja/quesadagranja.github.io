@@ -2,6 +2,7 @@
 layout: page
 title: About me
 ---
+## Carlos Quesada Granja
 <center>
   <video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 250px; padding: 0px; transform: rotate(0deg); margin: 0em auto;">
     <source src="/img/about/me.mp4" type="video/mp4" />
@@ -9,7 +10,10 @@ title: About me
 </center>
 <center><small><a href="https://www.openstreetmap.org/#map=16/43.3830/-3.0075">Sopela beach</a>, July 2021</small></center>
 
-## Carlos Quesada Granja
+### Interests
+* Data Science
+* Artificial Intelligence & Machine Learning
+* Research & Development
 
 ### Education
 * 2008: BSc & MSc Telecommunication Engineering, [Miguel Hernández University of Elche](https://umh.es/)
@@ -17,11 +21,10 @@ title: About me
 * 2014: MSc Applied Mechanics, [University of Zaragoza](http://www.unizar.es/)
 * 2017: PhD Engineering, University of Zaragoza [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 
-##### Relevant courses
+### Relevant courses
 * 2008: First year BSc Computer Engineering, University of Alicante
 * 2009: Certificate of Pedagogical Aptitude, Miguel Hernández University of Elche
 * 2020: Deep Learning Specialization, [Coursera](http://coursera.org/verify/specialization/7VW4YHQ3K936)
-
 
 ### Experience
 * 2005: Jr Software Developer, [Institute of Neurosciences of Alicante](http://in.umh-csic.es/)
@@ -31,10 +34,10 @@ title: About me
 * 2019-2020: Image Processing & Machine Learning Scientist, University of Zaragoza
 * 2020- : Data Scientist, Associate Researcher at [University of Deusto](https://www.deusto.es/)
 
-### Interests
-* Data Science
-* Artificial Intelligence & Machine Learning
-* Research & Development
+### Research & Teaching
+* 13 research articles published in indexed journals
+* Over 200 hours of university teaching
+* 1 BSc thesis supervised
 
 ### Links
 * [GitHub](https://github.com/quesadagranja),
