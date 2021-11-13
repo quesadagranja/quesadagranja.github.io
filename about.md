@@ -11,6 +11,8 @@ title: About me
 
 ## Carlos Quesada Granja
 
+* Contact: quesadagranja@gmail.com
+
 ### Interests
 * Data Science
 * Artificial Intelligence & Machine Learning
