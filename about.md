@@ -2,13 +2,14 @@
 layout: page
 title: About me
 ---
-## Carlos Quesada Granja
 <center>
   <video autoplay loop muted playsinline disableRemotePlayback x-webkit-airplay="deny" disablePictureInPicture style="width: 250px; padding: 0px; transform: rotate(0deg); margin: 0em auto;">
     <source src="/img/about/me.mp4" type="video/mp4" />
   </video>
 </center>
 <center><small><a href="https://www.openstreetmap.org/#map=16/43.3830/-3.0075">Sopela beach</a>, July 2021</small></center>
+
+## Carlos Quesada Granja
 
 ### Interests
 * Data Science
