@@ -37,7 +37,7 @@ title: About me
 
 ##### Research & Teaching
 * 13 research articles in indexed journals
-* Over 200 hours of university teaching (in Spanish, English, and French)
+* Over 200 hours of university teaching
 * 1 BSc thesis supervised
 
 ### Links
