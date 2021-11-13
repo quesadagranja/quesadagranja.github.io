@@ -42,9 +42,11 @@ title: About me
 
 ### Links
 * Contact: quesadagranja@gmail.com
-*  [GitHub](https://github.com/quesadagranja),
-[Twitter](https://twitter.com/quesadagranja),
-[LinkedIn](https://www.linkedin.com/in/quesadagranja/)
+* Profile at [University of Deusto](https://deustotech.deusto.es/member/quesada-granja-carlos/)
 * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56411773600), 
 [ORCID](https://orcid.org/0000-0003-3294-8093), 
-[Scholar](https://scholar.google.es/citations?user=SBIFQqYAAAAJ)
+[Scholar](https://scholar.google.es/citations?user=SBIFQqYAAAAJ),
+[LinkedIn](https://www.linkedin.com/in/quesadagranja/),
+[GitHub](https://github.com/quesadagranja),
+[Twitter](https://twitter.com/quesadagranja)
+
