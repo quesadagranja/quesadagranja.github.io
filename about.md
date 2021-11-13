@@ -36,7 +36,7 @@ title: About me
 * 2020- : Data Scientist, Associate Researcher at [University of Deusto](https://www.deusto.es/)
 
 ##### Research & Teaching
-* 13 research articles published in indexed journals
+* 13 research articles in indexed journals
 * Over 200 hours of university teaching (in Spanish, English, and French)
 * 1 BSc thesis supervised
 
