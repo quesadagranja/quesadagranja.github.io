@@ -11,8 +11,6 @@ title: About me
 
 ## Carlos Quesada Granja
 
-* Contact: quesadagranja@gmail.com
-
 ### Interests
 * Data Science
 * Artificial Intelligence & Machine Learning
@@ -43,7 +41,8 @@ title: About me
 * 1 BSc thesis supervised
 
 ### Links
-* [GitHub](https://github.com/quesadagranja),
+* Contact: quesadagranja@gmail.com
+*  [GitHub](https://github.com/quesadagranja),
 [Twitter](https://twitter.com/quesadagranja),
 [LinkedIn](https://www.linkedin.com/in/quesadagranja/)
 * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56411773600), 
