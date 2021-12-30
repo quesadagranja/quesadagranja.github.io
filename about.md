@@ -37,7 +37,7 @@ title: About me
 
 ##### Research & Teaching
 * 13 research articles in indexed journals
-* ~220 hours of university teaching
+* 220 hours of university teaching
 * 1 BSc thesis supervised
 
 ### Links
