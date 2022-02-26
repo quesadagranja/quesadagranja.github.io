@@ -19,7 +19,7 @@ Interestingly, except for 1, the numbers follow an arithmetic progression with a
 <img src="/img/lottery/betting-slip.png" alt="1, 2, 13, 24, 35, 46" width="150"/>
 </center>
 
-It's a diagonal line! 10 out of the 5.1 million people who participated in the draw that day decided to sketch a diagonal line on their betting slip! Isn't it funny? **Being original made them unoriginal.** And so they had to split the jackpot between all of them, 67,000€ each.
+It's a diagonal line! 10 out of the 5.1 million people who participated in the draw that day decided to sketch a diagonal line on their betting slip! Isn't it funny? **Being original made them unoriginal.** And so they had to split the jackpot between all of them, €67,000 each.
 
 I wonder how many other people participate in the lottery with bursts of originality like this. Lines of all kinds, little clusters, smiley faces, geometric shapes... as you can see below, there are endless possibilities!
 
