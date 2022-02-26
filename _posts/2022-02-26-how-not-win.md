@@ -12,7 +12,8 @@ From a more local point of view, let's take the Spanish *Bonoloto*. The mechanis
 
 <center>
 1, 2, 13, 24, 35, 46
-</center>
+</center>  
+
 
 Interestingly, except for 1, the numbers follow an arithmetic progression with a difference of 11. But the most eye-catching thing is that the combination looks like this on the betting slip:
 
