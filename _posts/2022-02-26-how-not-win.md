@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How NOT to win the lottery"
-date: 2021-08-02
+date: 2022-02-26
 image: /img/lottery/thumb.png
 ---
 '*The Devil's Dictionary*', a satirical dictionary written by the American journalist Ambrose Bierce and published in 1911, defines *lottery* as '*a tax on people who are bad at math.*' The origin of this observation clearly lies in the fact that winning the main prize of any lottery has really low odds, and only those who have done the math will realize that winning the jackpot is practically impossible. Therefore, those who play the lottery are paying a 'voluntary' tax because they will never see any return on their investment.
