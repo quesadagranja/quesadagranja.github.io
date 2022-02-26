@@ -13,12 +13,14 @@ From a more local point of view, let's take the Spanish *Bonoloto*. The mechanis
 <center>
 1, 2, 13, 24, 35, 46
 </center>
+</br>
 
 Interestingly, except for 1, the numbers follow an arithmetic progression with a difference of 11. But the most eye-catching thing is that the combination looks like this on the betting slip:
 
 <center>
 <img src="/img/lottery/betting-slip.png" alt="1, 2, 13, 24, 35, 46" width="150"/>
 </center>
+</br>
 
 It's a diagonal line! 10 out of the 5.1 million people who participated in the draw that day decided to sketch a diagonal line on their betting slip! Isn't it funny? **Being original made them unoriginal.** And so they had to split the jackpot between all of them, 67,000€ each.
 
@@ -27,5 +29,6 @@ I wonder how many other people participate in the lottery with bursts of origina
 <center>
 <img src="/img/lottery/funny-betting-slips.png" alt="1, 2, 13, 24, 35, 46" width="480"/>
 </center>
+</br>
 
 Moral of the story: to be unique, be as random as possible!
