@@ -9,4 +9,4 @@ The work I carried out during my stay at the *Université de Technologie de Comp
 
 #### Related posts
 * [Published my article on microcapsule shape prediction!](https://www.quesadagranja.com/capsule-shape-prediction)
-* [Published my second article on microcapsules!](https://www.quesadagranja.com/second-article-capsules).
+* [Published my second article on microcapsules!](https://www.quesadagranja.com/second-article-capsules)
