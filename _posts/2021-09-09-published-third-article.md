@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Published a third article in microcapsules!"
+title: "Published a third article on microcapsules!"
 date: 2021-09-09
 image: /img/capsule-3/thumb.jpg
 ---
