@@ -1,6 +1,8 @@
 ## Welcome to my professional website
 
-Hi, my name is Carlos Quesada Granja and I am a Data Scientist with a strong interest in scientific research and development. On this website, you will find information about me and my professional journey. In the **About me** section, you can learn more about my background and expertise. The **News** section is an embedded HTML feed of my tweets, where I share professional updates and news about my work. The **Blog** section is where I share my thoughts and insights on topics related to Data Science, Artificial Intelligence, and Machine Learning, as well as interesting and fun facts about science and the world around us.
+Hi, my name is Carlos Quesada Granja and I am a Data Scientist with a strong interest in scientific research and development.
+
+On this website, you will find information about me and my professional journey. In the **About me** section, you can learn more about my background and expertise. The **News** section is an embedded HTML feed of my tweets, where I share professional updates and news about my work. The **Blog** section is where I share my thoughts and insights on topics related to Data Science, Artificial Intelligence, and Machine Learning, as well as interesting and fun facts about science and the world around us.
 
 Thank you for visiting my website. I hope you find it informative and interesting. If you have any questions or comments, please feel free to contact me.
 
