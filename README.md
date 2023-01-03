@@ -1,6 +1,6 @@
-## Welcome to my professional website
+## Welcome to my website
 
-Hi, my name is Carlos Quesada Granja and I am a Data Scientist with a strong interest in scientific research and development.
+Hi, my name is **Carlos Quesada Granja** and I am a Data Scientist with a strong interest in scientific research and development.
 
 On this website, you will find information about me and my professional journey.
 
