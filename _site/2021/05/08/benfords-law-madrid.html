@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Benford’s law and the 2021 Madrid regional election | quesadagranja.com</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Benford’s law and the 2021 Madrid regional election" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I originally wanted the title of this post to be “Was the 2021 Madrid regional election fraudulent?”, but I found it too much for a post about observation-based laws and R code." />
+<meta property="og:description" content="I originally wanted the title of this post to be “Was the 2021 Madrid regional election fraudulent?”, but I found it too much for a post about observation-based laws and R code." />
+<link rel="canonical" href="http://localhost:4000/2021/05/08/benfords-law-madrid.html" />
+<meta property="og:url" content="http://localhost:4000/2021/05/08/benfords-law-madrid.html" />
+<meta property="og:site_name" content="quesadagranja.com" />
+<meta property="og:image" content="http://localhost:4000/img/benford/thumb.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-08T00:00:00+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/img/benford/thumb.jpg" />
+<meta property="twitter:title" content="Benford’s law and the 2021 Madrid regional election" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-05-08T00:00:00+02:00","datePublished":"2021-05-08T00:00:00+02:00","description":"I originally wanted the title of this post to be “Was the 2021 Madrid regional election fraudulent?”, but I found it too much for a post about observation-based laws and R code.","headline":"Benford’s law and the 2021 Madrid regional election","image":"http://localhost:4000/img/benford/thumb.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/05/08/benfords-law-madrid.html"},"url":"http://localhost:4000/2021/05/08/benfords-law-madrid.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="quesadagranja.com" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">quesadagranja.com</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">About me</a><a class="page-link" href="/news/">News</a><a class="page-link" href="/blog/">Blog</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Benford&#39;s law and the 2021 Madrid regional election</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-05-08T00:00:00+02:00" itemprop="datePublished">May 8, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I originally wanted the title of this post to be “<em>Was the 2021 Madrid regional election fraudulent?</em>”, but I found it too much for a post about observation-based laws and R code.</p>
+
+<p>In particular, this post focuses on <a href="https://en.wikipedia.org/wiki/Benford%27s_law"><strong>Benford’s Law</strong></a>. This law describes a phenomenon by which, in many real-life collections of numbers, those numbers whose leading digit is 1 appear more frequently than numbers beginning with other digits. Some examples of these collections of numbers include</p>
+
+<ol>
+  <li>the number of followers of Twitter users,</li>
+  <li>the number of books in US libraries,</li>
+  <li>the population of Spanish cities,</li>
+  <li>the street numbers of Brazilian addresses, and so on.</li>
+</ol>
+
+<p>In all these collections, the digit that most of the numbers start with is 1, then 2, then 3… and so on, with 9 being the digit that the fewest numbers start with.
+The website <a href="testingbenfordslaw.com">testingbenfordslaw.com</a> provides a visual check of these examples and many more.</p>
+
+<center>
+<figure>
+  <img src="/img/benford/benford-distribution-450px.png" alt="The distribution of the first digits, according to Benford's law. Image from Wikipedia." />
+  <figcaption>The distribution of the first digits, according to Benford's law. Image from Wikipedia.</figcaption>
+</figure>
+</center>
+
+<p>This law, which might seem not so relevant, has interesting applications in the fields of forensic accounting, auditing and <strong>fraud detection</strong>, as described in the book by M. J. Nigrini, <a href="https://books.google.es/books/about/Benford_s_Law.html?id=Bh5Vr_I1NZoC"><em>Benford’s law</em></a>. Among the frauds that are often analyzed with Benford’s law are tax fraud and also <strong>electoral fraud</strong>. For example, a claim that circulated on social media after the 2020 US Presidential election was that some of the votes for Joe Biden seemed suspicious because they did not follow Benford’s law. The <a href="https://twitter.com/PetersonAmoriah/status/1333593122861846528">tweet below</a> is an example.</p>
+
+<center>
+<figure>
+  <img src="/img/benford/twitter-benford-500px.png" alt="Tweet by @PetersonAmoriah" />
+  <figcaption>Tweet by @PetersonAmoriah</figcaption>
+</figure>
+</center>
+
+<p>Last Tuesday (May 4th) there were regional elections in Madrid and I wanted to check whether Benford’s law holds true for the results of each municipality in the region. Six main political parties contested the 136 seats in the Madrid Assembly and <a href="https://resultados2021.comunidad.madrid/Resultados/Comunidad-de-Madrid/0/es">the results</a> were as follows:</p>
+<ul>
+  <li><strong>Partido Popular</strong>: 65 seats (1,620,213 votes)</li>
+  <li><strong>Más Madrid</strong>: 24 seats (614,660 votes)</li>
+  <li><strong>PSOE</strong>: 24 seats (610,190 votes)</li>
+  <li><strong>Vox</strong>: 13 seats (330,660 votes)</li>
+  <li><strong>Podemos</strong>: 10 seats (261,010 votes)</li>
+  <li><strong>Ciudadanos</strong>: 0 seats (129,216 votes)</li>
+</ul>
+
+<p>The results per municipality and per polling station can be found at <a href="https://resultados2021.comunidad.madrid/Mesas/es">the official site</a> of the elections. To make things easier though, I have created two CSV files from this data, which can be found in <a href="https://github.com/quesadagranja/blog/tree/main/benfords_law">my GitHub repository</a>. In addition, to analyze the data using Benford’s law, I have prepared a very simple piece of code in R that makes use of the <a href="https://search.r-project.org/CRAN/refmans/benford.analysis/html/benford.html"><code class="language-plaintext highlighter-rouge">benford.analysis</code></a> package. The script, which can also be found in my repository, represents a histogram with the leading digits of the electoral results for each municipality of Madrid, and compares it with the ideal curve according to Benford’s law. The results are shown below for each of the six main parties:</p>
+
+<center>
+<figure>
+  <img src="/img/benford/benford-parties.png" alt="The blue bars show the real distribution of leading digits, whereas the red curve shows the ideal distribution following Benford's law." />
+  <figcaption>The blue bars show the real distribution of leading digits, whereas the red curve shows the ideal distribution following Benford's law.</figcaption>
+</figure>
+</center>
+
+<p>As can be seen, <strong>none</strong> of the histograms perfectly meet expectations. The same happens when polling station data is used instead of municipality data. Does this mean that the elections were rigged? I don’t think so, because the election result was very close to what most polls predicted weeks ago. So, what’s happening here?</p>
+
+<p>The answer may be complex, but it seems that Benford’s law is not as good at detecting electoral fraud as it was thought to be. In <a href="https://www.cambridge.org/core/journals/political-analysis/article/benfords-law-and-the-detection-of-election-fraud/3B1D64E822371C461AF3C61CE91AAF6D">a paper</a> published in 2017, J. Deckert et al. designed a series of simulations to model both fair and fraudulent elections, and they found that “<em>conformity with and deviations from Benford’s law <strong>follow no pattern</strong></em>”. Indeed, they stated that finding patterns using Benford’s law when it comes to elections is similar to “<em>seeing cats, dogs, and crows in clouds</em>”. So, bookmark this paper for the next time someone proves electoral irregularities using Benford’s law!</p>
+
+  </div><a class="u-url" href="/2021/05/08/benfords-law-madrid.html" hidden></a>
+</article>
+
+      </div>
+    </main><style>
+  .social-links {
+    text-align: center;
+  }
+</style>
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+	<div class="footer-text">
+	  <p class="site-name">quesadagranja.com</p>
+	</div>
+
+  </div>
+
+</footer></body>
+
+</html>

@@ -1,0 +1,20 @@
+---
+---
+
+/* https://lzone.de/blog/How-to-use-custom-CSS-with-Jekyll-Minima-theme */
+
+@import "{{ site.theme }}";
+
+p, ul, ol, code {
+  line-height: 2;
+}
+
+.site-name {
+  text-align: center;
+  font-size: larger;
+  line-height: 1; /* elimina el espaciado entre líneas */
+}
+
+.post-link {
+  line-height: 1.2;
+}
