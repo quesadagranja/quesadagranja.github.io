@@ -9,12 +9,6 @@ permalink: /
 
 ![Biscay, Jan. 2022](/img/me/me.jpg)
 
-<!--
-Hi there!
-
-My name is **Carlos Quesada Granja** and I am a Data Scientist with a passion for scientific research and development. I have dedicated my career to exploring and advancing the field of Data Science, with a particular focus on Artificial Intelligence and the development, implementation, and deployment of Machine Learning models.
--->
-
 Hello and welcome to my website!
 
 My name is **Carlos Quesada Granja** and I am a Data Scientist with a strong interest in scientific research and development. I have built my career around exploring and pushing the boundaries of Data Science, with a special focus on Artificial Intelligence and the use of Machine Learning to solve real-world problems. I am passionate about the development, implementation, and deployment of Machine Learning models, and I am always looking for new opportunities to learn and grow in this exciting field.
@@ -48,23 +42,7 @@ Thank you for visiting my website and I hope you find the information here helpf
 * 🔗 LinkedIn: [quesadagranja](https://linkedin.com/in/quesadagranja)
 * 💻 GitHub: [quesadagranja](https://github.com/quesadagranja)
 * 🐦 Twitter: [quesadagranja](https://twitter.com/quesadagranja)
-<!--	
-### Relevant achievements
 
-#### Academia
-
-* 14 research articles, conference papers, and book chapters in indexed journals
-* 16 oral communications, 11 posters, and 2 workshops in congresses
-* Recognition of a six-year research period (2012-2017) by Unibasq
-
-#### Teaching
-
-* More than 280 hours of university teaching (in English, Spanish, and French)
-* Development of syllabus, teaching materials, and learning guide of the *Technical and Scientific Programming* course at University of Deusto
-* Supervision of 1 BSc thesis
-* Accredited as Assistant Professor Doctor (*Profesor Ayudante Doctor*) by ANECA
-* 2009: Pedagogical Aptitude Certificate (CAP)
--->
 
 <!-- Hi there! My name is **Carlos Quesada** and I am a Data Scientist with a background in Telecommunications Engineering. I received my **BSc** and **MSc** from Miguel Hernández University of Elche in 2008, and my **DEA** (Diploma of Advanced Studies) in Information Technology from the University of Alicante in 2010.
 
