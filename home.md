@@ -26,7 +26,7 @@ Thank you for visiting my website and I hope you find the information here helpf
     * **2017**: PhD, cum laude, international mention [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 * **2017-2020**: Postdocs at Université de Technologie de Compiègne and University of Zaragoza
 * **2020-**: [Research associate at DeustoTech](https://deustotech.deusto.es/member/quesada-granja-carlos/), University of Deusto
-    * **2021-**: Lecturer of *Technical and Scientific Programming* of the BSc in Data Science and Artificial Intelligence
+    * **2021-**: Lecturer of *Technical and Scientific Programming* of the BSc in Data Sci. & AI
 
 ### Academia
 
