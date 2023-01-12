@@ -26,7 +26,7 @@ Thank you for visiting my website and I hope you find the information here helpf
     * **2017**: PhD, cum laude, international mention [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
 * **2017-2020**: Postdocs at Université de Technologie de Compiègne and University of Zaragoza
 * **2020-**: [Research associate at DeustoTech](https://deustotech.deusto.es/member/quesada-granja-carlos/), University of Deusto
-    * **2021-**: Lecturer of *Technical and Scientific Programming* of the BSc in Data Sci. & AI
+    * **2021-**: Lecturer of the *Technical and Scientific Programming* course of the BSC in Data Science and Artificial Intelligence
 
 ### Academia
 
@@ -43,16 +43,3 @@ Thank you for visiting my website and I hope you find the information here helpf
 * 🔗 LinkedIn: [quesadagranja](https://linkedin.com/in/quesadagranja)
 * 💻 GitHub: [quesadagranja](https://github.com/quesadagranja)
 * 🐦 Twitter: [quesadagranja](https://twitter.com/quesadagranja)
-
-
-<!-- Hi there! My name is **Carlos Quesada** and I am a Data Scientist with a background in Telecommunications Engineering. I received my **BSc** and **MSc** from Miguel Hernández University of Elche in 2008, and my **DEA** (Diploma of Advanced Studies) in Information Technology from the University of Alicante in 2010.
-
-I have a passion for scientific research and development and have dedicated my career to exploring and advancing the field of Data Science. My interests and expertise lie in Artificial Intelligence, and I have a strong focus on the development, implementation, and deployment of Machine Learning models.
-
-I began my research career at the Institute of Neurosciences of Alicante in 2010, where I used data analysis and visualization techniques to study the brain hippocampus. In 2012, I was awarded an **FPI pre-doctoral fellowship** that brought me to the *Applied Mechanics and Bioengineering* (AMB) group at the University of Zaragoza.
-
-During this time, I completed an **MSc** in Applied Mechanics in 2014, did a research stay at École Centrale de Nantes in France in 2015, and earned my **PhD** in 2017. My thesis was on developing and implementing real-time, haptic-controlled, physics-based surgical simulators using Proper Generalized Decomposition (PGD) techniques.
-
-After my defense, I did a postdoc at the Université de Technologie de Compiègne (UTC) in France in 2017, where I used Proper Orthogonal Decomposition (POD) and diffuse approximation techniques for real-time prediction of microcapsule deformation and identification of their mechanical properties. I then returned to the University of Zaragoza in 2019 for a second postdoc, where I applied registration techniques on 3D medical images.
-
-In 2020, I started working as a research associate at DeustoTech, University of Deusto, where I am using unsupervised techniques to model residential energy consumption. In addition to my research duties, I also serve as a lecturer for the *Technical and Scientific Programming* course for students in the Data Science and Artifical Intelligence degree program. -->
