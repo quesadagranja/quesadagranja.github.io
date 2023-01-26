@@ -24,8 +24,9 @@ Thank you for visiting my website and I hope you find the information here helpf
     * **2014**: MSc in Applied Mechanics
     * **2015**: Research stay at École Centrale de Nantes
     * **2017**: PhD, cum laude, international mention [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
-* **2017-2018**: Postdoc at Université de Technologie de Compiègne
-* **2019-2020**: Postdoc at University of Zaragoza
+* **2017-2020**: Postdoc positions
+    * **2017-2018**: Université de Technologie de Compiègne, France
+    * **2019-2020**: University of Zaragoza
 * **2020-**: [Research associate at DeustoTech](https://deustotech.deusto.es/member/quesada-granja-carlos/), University of Deusto
     * **2021-**: Lecturer of the *Technical and Scientific Programming* course of the BSC in Data Science and Artificial Intelligence
 
