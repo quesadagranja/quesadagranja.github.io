@@ -24,7 +24,8 @@ Thank you for visiting my website and I hope you find the information here helpf
     * **2014**: MSc in Applied Mechanics
     * **2015**: Research stay at École Centrale de Nantes
     * **2017**: PhD, cum laude, international mention [(PhD thesis)](https://zaguan.unizar.es/record/59996/files/TESIS-2017-017.pdf)
-* **2017-2020**: Postdocs at Université de Technologie de Compiègne and University of Zaragoza
+* **2017-2018**: Postdoc at Université de Technologie de Compiègne
+* **2019-2020**: Postdoc at University of Zaragoza
 * **2020-**: [Research associate at DeustoTech](https://deustotech.deusto.es/member/quesada-granja-carlos/), University of Deusto
     * **2021-**: Lecturer of the *Technical and Scientific Programming* course of the BSC in Data Science and Artificial Intelligence
 
@@ -55,7 +56,7 @@ In 2020, I started working as a research associate at DeustoTech, University of 
 
 * 📧 Email: [quesadagranja@gmail.com](mailto:quesadagranja@gmail.com)
 * 🆔 ORCID: [Carlos Quesada](https://orcid.org/0000-0003-3294-8093)
-* 🎓 Google Scholar: [Carlos Quesada](https://scholar.google.es/citations?user=SBIFQqYAAAAJ)
+* 🎓 Scholar: [Carlos Quesada](https://scholar.google.es/citations?user=SBIFQqYAAAAJ)
 * 🔗 LinkedIn: [quesadagranja](https://linkedin.com/in/quesadagranja)
 * 💻 GitHub: [quesadagranja](https://github.com/quesadagranja)
 * 🐦 Twitter: [quesadagranja](https://twitter.com/quesadagranja)
