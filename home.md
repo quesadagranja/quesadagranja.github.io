@@ -15,11 +15,11 @@ permalink: /
 </center>
 
 
-Welcome to my website! I'm **Carlos Quesada Granja**, a passionate **Data Scientist** riding the waves of cutting-edge scientific research and development.
+Welcome to my website! I'm **Carlos Quesada Granja**, a passionate **Data Scientist** riding the waves of cutting-edge scientific research and development. 
 
-Just as a surfer anticipates and navigates the rise and fall of the ocean's waves, I use my background in Telecommunications Engineering, Information Technology, and Applied Mechanics to harness the power of Machine Learning to solve real-world problems. The sea has always been a source of inspiration for me, with its vast and ever-changing nature reflecting the limitless potential of data and Artificial Intelligence.
+Just as a surfer anticipates and navigates the rise and fall of the ocean's waves, I use my background in Telecommunications Engineering, Information Technology, and Applied Mechanics to harness the power of Machine Learning to solve real-world problems. The sea has always been a source of inspiration for me, as its vast and ever-changing nature reflects the limitless potential of data and Artificial Intelligence.
 
-Thank you for visiting, and I hope you find the information here as refreshing and energizing as a dip in the ocean. 🌊
+Thank you for visiting, and I hope you find the information here as refreshing and invigorating as a dip in the ocean. 🌊
 
 ### Short bio
 
