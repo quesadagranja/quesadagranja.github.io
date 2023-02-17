@@ -10,11 +10,11 @@ permalink: /
 <center>
 <figure>
   <img src="/img/me/me.jpg" alt="Me" />
-  <figcaption>Biscay, Jan. 2022.</figcaption>
+  <figcaption>Biscay, January 2022.</figcaption>
 </figure>
 </center>
 
-Hello, my name is **Carlos Quesada Granja**, and I'm a Data Scientist with a passion for exploring the cutting-edge of scientific research and development. With a strong background in Telecommunications engineering, Information Technology, and Applied Mechanics, I specialize in using Machine Learning to solve real-world problems. Thank you for visiting my website, and I hope you find the information here helpful and informative.
+Hello, my name is **Carlos Quesada Granja**, and I'm a Data Scientist with a passion for exploring the cutting-edge of scientific research and development. With a background in Telecommunications engineering, Information Technology, and Applied Mechanics, I specialize in using Machine Learning to solve real-world problems. Thank you for visiting my website, and I hope you find the information here helpful and informative.
 
 ### Short bio
 
