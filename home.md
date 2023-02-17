@@ -14,7 +14,11 @@ permalink: /
 </figure>
 </center>
 
-Hello, my name is **Carlos Quesada Granja**, and I'm a Data Scientist with a passion for exploring the cutting-edge of scientific research and development. With a background in Telecommunications engineering, Information Technology, and Applied Mechanics, I specialize in using Machine Learning to solve real-world problems. Thank you for visiting my website, and I hope you find the information here helpful and informative.
+Welcome to my website, where I, **Carlos Quesada Granja**, ride the waves of cutting-edge scientific research and development as a passionate Data Scientist.
+
+Just as a surfer anticipates and navigates the rise and fall of the ocean's waves, I use my background in Telecommunications Engineering, Information Technology, and Applied Mechanics to harness the power of Machine Learning to solve real-world problems. The sea has always been a source of inspiration for me, with its vast and ever-changing nature reflecting the limitless potential of data and Artificial Intelligence.
+
+Thank you for visiting, and I hope you find the information here as refreshing and energizing as a dip in the ocean. 🌊
 
 ### Short bio
 
