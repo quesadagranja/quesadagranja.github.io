@@ -7,13 +7,14 @@ title: About me
 permalink: /
 ---
 
-![Biscay, Jan. 2022](/img/me/me.jpg)
+<center>
+<figure>
+  <img src="/img/me/me.jpg" alt="Me" />
+  <figcaption>Biscay, Jan. 2022.</figcaption>
+</figure>
+</center>
 
-### Hello and welcome to my website!
-
-My name is **Carlos Quesada Granja** and I am a Data Scientist with a strong interest in scientific research and development. I have built my career around exploring and pushing the boundaries of Data Science, with a special focus on Artificial Intelligence and the use of Machine Learning to solve real-world problems. I am passionate about the development, implementation, and deployment of Machine Learning models, and I am always looking for new opportunities to learn and grow in this exciting field.
-
-Thank you for visiting my website and I hope you find the information here helpful and informative.
+Hello, my name is **Carlos Quesada Granja**, and I'm a Data Scientist with a passion for exploring the cutting-edge of scientific research and development. With a strong background in Telecommunications engineering, Information Technology, and Applied Mechanics, I specialize in using Machine Learning to solve real-world problems. Thank you for visiting my website, and I hope you find the information here helpful and informative.
 
 ### Short bio
 
